@@ -28,8 +28,8 @@ set_politics = {
 set_popularities = {
 	democratic = 1
 	federalizm = 0
-	communism = 1
+	communism = 2
 	neutrality = 0
 	discopolo = 0
-	demokracjawalczaca = 98
+	demokracjawalczaca = 97
 }
