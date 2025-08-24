@@ -1,0 +1,15 @@
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		963 3016 3503 5294 6250 9284 
+	}
+	buildings_max_level_factor=1.000
+        manpower=50000
+        state_category = town
+
+	history = {
+		owner = KAM
+		add_core_of = KAM
+	}
+}

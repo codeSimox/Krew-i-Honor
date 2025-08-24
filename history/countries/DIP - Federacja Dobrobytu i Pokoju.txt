@@ -1,0 +1,32 @@
+capital = 132
+
+oob = "DIP_2025"
+
+set_convoys = 200
+set_research_slots = 2
+
+recruit_character = DIP_maciak_leader
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_trucks = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = autorytaryzm
+	last_election = "2025.05.16"
+	election_frequency = 84
+	elections_allowed = no
+}
+
+set_popularities = {
+	nacjonalizm = 5
+	narodowysocjalizm = 5
+	autorytaryzm = 90
+}

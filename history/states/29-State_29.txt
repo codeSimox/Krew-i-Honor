@@ -1,0 +1,15 @@
+state={
+	id=29
+	name="STATE_29"
+	provinces={
+		415 527 692 1421 1489 1692 1957 2324 2325 4805 6854 6876 6884 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = FLS
+		add_core_of = FLS
+	}
+}

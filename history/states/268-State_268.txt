@@ -1,0 +1,15 @@
+state={
+	id=268
+	name="STATE_268"
+	provinces={
+		68 335 1141 1461 2399 2517 2650 3153 3291 3516 3682 3757 3950 4223 4393 4397 5251 5715 6046 6577 6733 8543 8670 8704 8725 8746 8756 8795 8842 8921 8979 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = SZP
+		add_core_of = SZP
+	}
+}

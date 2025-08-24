@@ -1,0 +1,25 @@
+characters = {
+	CEP_holownia={
+		name=CEP_holownia
+		portraits={
+			civilian = {
+				large = GFX_portrait_CEP_holownia
+			}
+		}
+		country_leader = {
+			ideology = radykalnycentryzm
+		}
+	}
+
+	CEP_tygrys_leader={
+		name=CEP_tygrys_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_CEP_tygrys_leader
+			}
+		}
+		country_leader = {
+			ideology = narodowyagraryzm
+		}
+	}
+}

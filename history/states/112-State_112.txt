@@ -1,0 +1,15 @@
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		2533 3059 3636 4119 6017 6045 7421 7459 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = IPL
+		add_core_of = IPL
+	}
+}

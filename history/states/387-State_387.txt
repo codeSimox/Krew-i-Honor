@@ -1,0 +1,15 @@
+state={
+	id=387
+	name="STATE_387"
+	provinces={
+		215 471 902 1732 1736 3529 5031 9557 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = SOD
+		add_core_of = SOD
+	}
+}

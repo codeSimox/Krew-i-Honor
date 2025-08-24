@@ -1,0 +1,15 @@
+state={
+	id=423
+	name="STATE_423"
+	provinces={
+		95 234 1074 1107 2926 3127 4311 5919 6920 6944 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = FLS
+		add_core_of = FLS
+	}
+}

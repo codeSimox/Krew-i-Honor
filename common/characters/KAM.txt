@@ -1,0 +1,13 @@
+characters = {
+	KAM_jaszczur_leader={
+		name=KAM_jaszczur_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_KAM_character
+			}
+		}
+		country_leader = {
+			ideology = junta
+		}
+	}
+}

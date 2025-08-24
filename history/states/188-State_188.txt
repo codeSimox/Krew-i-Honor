@@ -1,0 +1,15 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		1320 4618 4961 5881 6067 7990 8036 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = KON
+		add_core_of = KON
+	}
+}

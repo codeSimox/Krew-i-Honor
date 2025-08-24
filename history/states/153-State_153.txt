@@ -1,0 +1,15 @@
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		1822 4647 5735 5982 6112 6167 6365 7823 7877 7944 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = LIB
+		add_core_of = LIB
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+	RZP_jakubiak={
+		name=RZP_jakubiak
+		portraits={
+			civilian = {
+				large = GFX_portrait_RZP_jakubiak
+			}
+		}
+		country_leader = {
+			ideology = nac
+		}
+	}
+}

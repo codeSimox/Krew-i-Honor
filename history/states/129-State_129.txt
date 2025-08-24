@@ -1,0 +1,15 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		547 895 1045 1133 1270 1423 1502 1661 1889 2000 2062 2589 2773 3322 3487 3954 4019 4300 4362 4762 4804 4831 4979 4995 5679 5717 6122 6319 6574 6600 7385 7438 7470 7488 7534 7544 7607 7661 7676 7736 7819 7835 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = DIP
+		add_core_of = DIP
+	}
+}

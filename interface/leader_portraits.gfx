@@ -1,0 +1,143 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_LIB_character"
+		textureFile = "gfx/leaders/LIB/prezydent.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_SZP_character"
+		textureFile = "gfx/leaders/SZP/prezydent.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_UPO_character"
+		textureFile = "gfx/leaders/UPO/trzask.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_SOD_character"
+		textureFile = "gfx/leaders/SOD/Braciaff.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_KAM_character"
+		textureFile = "gfx/leaders/KAM/Jaszczur.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_IPL_character"
+		textureFile = "gfx/leaders/IPL/Artur_Bartoszewicz.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_PAJ_character"
+		textureFile = "gfx/leaders/PAJ/Mariusz_Szczerski.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_CEP_holownia"
+		textureFile = "gfx/leaders/CEP/holownia.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_CEP_tygrys_leader"
+		textureFile = "gfx/leaders/CEP/tygrys_leader.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_RPL_jarek"
+		textureFile = "gfx/leaders/RPL/jarek.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_RPL_nawrocki"
+		textureFile = "gfx/leaders/RPL/nawrocki.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_NRP_braun_leader"
+		textureFile = "gfx/leaders/NRP/braun_leader.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_REZ_character"
+		textureFile = "gfx/leaders/REZ/Krzysztof_Stanowski.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_KON_memcen_leader"
+		textureFile = "gfx/leaders/KON/memcen_leader.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_RZP_jakubiak"
+		textureFile = "gfx/leaders/RZP/jakubiak.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_DIP_maciak_leader"
+		textureFile = "gfx/leaders/DIP/maciak_leader.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_FLS_biejat_leader"
+		textureFile = "gfx/leaders/FLS/biejat.tga"
+	}
+}
+
+spriteTypes = {
+
+	spriteType ={
+		name = "GFX_portrait_PRL_senyszyn"
+		textureFile = "gfx/leaders/PRL/senyszyn.tga"
+	}
+}

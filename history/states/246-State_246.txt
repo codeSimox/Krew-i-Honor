@@ -1,0 +1,16 @@
+state={
+	id=246
+	name="STATE_246"
+	provinces={
+		247 265 463 784 1168 1436 1968 2110 2206 2640 2781 2936 3476 4050 4409 4449 4977 5234 5428 5541 5571 5756 5976 6151 6649 8491 8515 8640 8669 8692 8755 8785 8794 8817 8850 
+	}
+	manpower=107982
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+
+	history = {
+		owner = LIB
+		add_core_of = LIB
+	}
+}

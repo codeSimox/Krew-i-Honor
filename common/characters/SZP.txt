@@ -1,0 +1,13 @@
+characters = {
+	SZP_great_leader={
+		name=SZP_great_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_SZP_character
+			}
+		}
+		country_leader = {
+			ideology = fed
+		}
+	}
+}

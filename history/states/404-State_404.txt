@@ -1,0 +1,15 @@
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		40 105 289 533 1256 2112 2227 2344 2480 3027 3834 4841 5053 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = REZ
+		add_core_of = REZ
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		18 801 1034 1039 1777 1785 2330 3458 3596 3827 3871 4305 5354 5663 9537 9575 9589 9590 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = PRL
+		add_core_of = PRL
+	}
+}

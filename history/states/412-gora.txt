@@ -1,0 +1,15 @@
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		1052 2063 2809 3128 3517 3539 3876 4145 4201 5825 5931 6082 8456 8465 8574 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = LIB
+		add_core_of = LIB
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		611 1232 1284 1488 1660 1781 1853 2050 2119 3067 3085 3104 3594 4227 4306 4331 4583 4684 5577 5668 6255 6357 6895 6948 6956 6982 6994 7000 7020 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = UPO
+		add_core_of = UPO
+	}
+}

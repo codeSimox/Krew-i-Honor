@@ -1,0 +1,25 @@
+characters = {
+	RPL_nawrocki={
+		name=RPL_nawrocki
+		portraits={
+			civilian = {
+				large = GFX_portrait_RPL_nawrocki
+			}
+		}
+		country_leader = {
+			ideology = nac
+		}
+	}
+
+	RPL_jarek={
+		name=RPL_jarek
+		portraits={
+			civilian = {
+				large = GFX_portrait_RPL_jarek
+			}
+		}
+		country_leader = {
+			ideology = kac
+		}
+	}
+}

@@ -1,0 +1,18 @@
+name="Krew i Honor"
+version="v0.1"
+tags={
+	"Map"
+	"Utilities"
+}
+picture="blank_map_template_5632x2048.jpg"
+replace_path="history/states"
+replace_path="history/countries"
+replace_path="map/supplyareas"
+replace_path="map/strategicregions"
+replace_path="common/country_tags"
+replace_path="gfx/flags"
+replace_path="common/countries"
+replace_path="common/units/names_divisions"
+supported_version="1.16.8"
+path="C:/Users/szymo/Documents/Paradox Interactive/Hearts of Iron IV/mod/Krew i Honor"
+remote_file_id="3466066625"

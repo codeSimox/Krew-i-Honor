@@ -1,0 +1,15 @@
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		258 1056 1623 4092 9588 9595 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = PRL
+		add_core_of = PRL
+	}
+}

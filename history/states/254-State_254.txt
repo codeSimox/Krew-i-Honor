@@ -1,0 +1,15 @@
+state={
+	id=254
+	name="STATE_254"
+	provinces={
+		506 855 1717 4038 5129 5237 6197 8516 8552 8559 8592 8593 8678 8684 8726 8778 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = KON
+		add_core_of = KON
+	}
+}

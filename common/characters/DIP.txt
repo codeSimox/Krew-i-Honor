@@ -1,0 +1,13 @@
+characters = {
+	DIP_maciak_leader={
+		name=DIP_maciak_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_DIP_maciak_leader
+			}
+		}
+		country_leader = {
+			ideology = aut
+		}
+	}
+}

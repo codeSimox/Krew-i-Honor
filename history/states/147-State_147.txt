@@ -1,0 +1,15 @@
+state={
+	id=147
+	name="STATE_147"
+	provinces={
+		680 1225 1917 2171 2234 2315 2428 3670 3674 3687 4032 4496 4545 5265 6053 6172 6367 6395 6622 6742 7595 7639 7656 7677 7690 7695 7745 7746 7785 7790 7806 7854 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = KON
+		add_core_of = KON
+	}
+}

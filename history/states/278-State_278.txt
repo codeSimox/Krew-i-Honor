@@ -1,0 +1,15 @@
+state={
+	id=278
+	name="STATE_278"
+	provinces={
+		942 1009 1128 4117 5139 5985 8852 8909 8965 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = CEP
+		add_core_of = CEP
+	}
+}

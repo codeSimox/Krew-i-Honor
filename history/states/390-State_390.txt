@@ -1,0 +1,15 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		70 443 592 1053 1064 1115 1412 2317 2636 3224 3334 5301 5357 6084 9561 9597 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = NRP
+		add_core_of = NRP
+	}
+}

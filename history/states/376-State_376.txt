@@ -1,0 +1,15 @@
+state={
+	id=376
+	name="STATE_376"
+	provinces={
+		241 1046 1259 1997 2300 2774 3945 4460 5359 5843 9531 9552 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = SOD
+		add_core_of = SOD
+	}
+}

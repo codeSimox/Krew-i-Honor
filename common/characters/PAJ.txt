@@ -1,0 +1,13 @@
+characters = {
+	PAJ_Mariusz_Szczerski={
+		name=PAJ_Mariusz_Szczerski
+		portraits={
+			civilian = {
+				large = GFX_portrait_PAJ_character
+			}
+		}
+		country_leader = {
+			ideology = narsoc
+		}
+	}
+}

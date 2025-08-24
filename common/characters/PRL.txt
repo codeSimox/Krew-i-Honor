@@ -1,0 +1,13 @@
+characters = {
+	PRL_senyszyn_leader={
+		name=PRL_senyszyn_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_PRL_senyszyn
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=223
+	name="STATE_223"
+	provinces={
+		541 654 1312 1886 1998 2116 2612 2672 2967 3053 3494 3835 4219 4486 4994 5049 5417 5459 5773 5846 6011 6232 6356 6372 6390 8277 8325 8326 8332 8359 8411 8416 8442 8500 8511 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = RPL
+		add_core_of = RPL
+	}
+}

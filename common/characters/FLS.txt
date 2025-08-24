@@ -1,0 +1,13 @@
+characters = {
+	FLS_biejat_leader={
+		name=FLS_biejat_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_FLS_biejat_leader
+			}
+		}
+		country_leader = {
+			ideology = socialism
+		}
+	}
+}

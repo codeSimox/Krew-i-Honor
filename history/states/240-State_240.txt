@@ -1,0 +1,15 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		1698 1960 2013 3309 3576 3799 4500 4667 4690 4920 5764 8499 8633 8636 8698 8736 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = FLS
+		add_core_of = FLS
+	}
+}

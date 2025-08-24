@@ -1,0 +1,13 @@
+characters = {
+	REZ_Krzysztof_Stanowski={
+		name=REZ_Krzysztof_Stanowski
+		portraits={
+			civilian = {
+				large = GFX_portrait_REZ_character
+			}
+		}
+		country_leader = {
+			ideology = cent
+		}
+	}
+}

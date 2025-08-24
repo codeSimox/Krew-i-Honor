@@ -1,0 +1,15 @@
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		1215 1523 1607 1876 1915 1945 2463 2641 2995 3108 3152 3638 4829 5018 5082 5591 7051 7062 7083 7091 7123 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = PAJ
+		add_core_of = PAJ
+	}
+}

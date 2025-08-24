@@ -1,0 +1,37 @@
+capital = 377
+
+oob = "SZP_2025"
+
+set_convoys = 100
+set_research_slots = 3
+
+recruit_character = SZP_great_leader
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_trucks = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = federalizm
+	last_election = "2025.05.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	federalizm = 100
+	communism = 0
+	neutrality = 0
+	discopolo = 0
+	demokracjawalczaca = 0
+}
+
+

@@ -1,0 +1,31 @@
+capital = 382
+
+oob = "NRP_2025"
+
+set_convoys = 0
+set_research_slots = 2
+
+recruit_character = NRP_braun_leader
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_trucks = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = monarchia
+	last_election = "2025.05.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchia = 100
+	nacjonalizm = 0
+}

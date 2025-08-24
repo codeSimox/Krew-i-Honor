@@ -1,0 +1,13 @@
+characters = {
+	IPL_Artur_Bartoszewicz={
+		name=IPL_Artur_Bartoszewicz
+		portraits={
+			civilian = {
+				large = GFX_portrait_IPL_character
+			}
+		}
+		country_leader = {
+			ideology = imp
+		}
+	}
+}

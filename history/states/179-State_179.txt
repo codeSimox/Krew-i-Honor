@@ -1,0 +1,15 @@
+state={
+	id=179
+	name="STATE_179"
+	provinces={
+		29 938 1667 2327 3008 3415 3448 3599 3773 3807 4536 4823 5118 5286 5306 5848 6459 6546 7821 7875 7879 7928 7936 8024 8059 8084 8104 8192 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = CEP
+		add_core_of = CEP
+	}
+}

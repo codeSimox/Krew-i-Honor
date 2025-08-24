@@ -1,0 +1,69 @@
+SOD = {
+	color = rgb { 75 77 186 }
+	color_ui = rgb { 124 125 184 }
+}
+
+LIB = {
+	color = rgb { 140 140 140 }
+	color_ui = rgb { 140 140 140 }
+}
+
+SZP = {
+	color = rgb { 28 25 180 }
+	color_ui = rgb { 28 25 180 }
+}
+
+UPO = {
+	color = rgb { 255 137 137 }
+	color_ui = rgb { 255 137 137 }
+}
+
+KAM = {
+	color = rgb { 76 58 22 }
+	color_ui = rgb { 76 58 22 }
+}
+
+IPL = {
+	color = rgb { 255 240 0 }
+	color_ui = rgb { 255 240 0 }
+}
+
+CEP = {
+	color = rgb { 180 119 0 }
+	color_ui = rgb { 231 167 12 }
+}
+
+RPL = {
+	color = rgb { 207 88 88 }
+	color_ui = rgb { 207 88 88 }
+}
+
+REZ = {
+	color = rgb { 82 78 85 }
+	color_ui = rgb { 82 78 85 }
+}
+
+KON = {
+	color = rgb { 0 160 180 }
+	color_ui = rgb { 0 160 180 }
+}
+
+REZ = {
+	color = rgb { 181 112 87 }
+	color_ui = rgb { 181 112 87 }
+}
+
+BEZ = {
+	color = rgb { 141 230 197 }
+	color_ui = rgb { 141 230 197 }
+}
+
+FLS = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
+FLS = {
+	color = rgb { 80 19 19 }
+	color_ui = rgb { 80 19 19 }
+}

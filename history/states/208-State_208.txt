@@ -1,0 +1,15 @@
+state={
+	id=208
+	name="STATE_208"
+	provinces={
+		97 1545 1681 2178 2204 2543 2602 2717 2921 3311 3630 4265 4386 5372 5416 5528 5718 5951 6457 8100 8122 8159 8211 8233 8236 8244 8286 8299 8346 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = RPL
+		add_core_of = RPL
+	}
+}

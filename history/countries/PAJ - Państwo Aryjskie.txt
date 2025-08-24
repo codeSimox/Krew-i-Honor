@@ -1,0 +1,33 @@
+capital = 67	
+
+oob = "PAJ_2025"
+
+set_research_slots = 3
+set_stability = 0.30
+set_war_support = 0.70
+
+recruit_character = PAJ_Mariusz_Szczerski
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_trucks = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = narodowysocjalizm
+	last_election = "2025.05.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	narodowysocjalizm = 83
+	discopolo = 10
+	demokracjawalczaca = 7
+}

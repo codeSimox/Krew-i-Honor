@@ -1,0 +1,13 @@
+characters = {
+	UPO_great_leader={
+		name=UPO_great_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_UPO_character
+			}
+		}
+		country_leader = {
+			ideology = demowal
+		}
+	}
+}

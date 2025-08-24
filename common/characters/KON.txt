@@ -1,0 +1,13 @@
+characters = {
+	KON_memcen_leader={
+		name=KON_memcen_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_KON_memcen_leader
+			}
+		}
+		country_leader = {
+			ideology = kap
+		}
+	}
+}

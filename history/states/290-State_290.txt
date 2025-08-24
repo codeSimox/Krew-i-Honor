@@ -1,0 +1,15 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		181 250 510 1218 1480 1815 2850 2944 3045 3270 3944 4788 4924 5231 5469 5563 5973 6502 6655 8727 8814 8859 8933 8947 8967 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = RZP
+		add_core_of = RZP
+	}
+}

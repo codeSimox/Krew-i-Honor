@@ -1,0 +1,43 @@
+division_template = {
+	name = "Pieszy Oddział Kamratów"
+	regiments = { 
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+	}
+}
+
+units = {
+	division = {
+		name = "1. Pieszy Oddział Kamratów"
+		location = 3503
+		division_template = "Pieszy Oddział Kamratów"
+		start_experience_factor = 1
+	}
+}
+
+units = {
+	division = {
+		name = "2. Pieszy Oddział Kamratów"
+		location = 9044
+		division_template = "Pieszy Oddział Kamratów"
+		start_experience_factor = 1
+	}
+}

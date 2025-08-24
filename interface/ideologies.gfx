@@ -1,0 +1,13 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_ideology_discopolo_group
+        texturefile = gfx/interface/ideologies/discopolo_group.dds
+	}
+}
+
+spriteTypes = {
+    spriteType = {
+        name = GFX_ideology_demokracjawalczaca_group
+        texturefile = gfx/interface/ideologies/demokracjawalczaca.dds
+	}
+}

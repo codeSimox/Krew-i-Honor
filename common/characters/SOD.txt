@@ -1,0 +1,13 @@
+characters = {
+	SOD_Bracia_Figo_Fagot = {
+		name = SOD_Bracia_Figo_Fagot
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOD_character
+			}
+		}
+		country_leader = {
+			ideology = discototalitaryzm
+		}
+	}
+}

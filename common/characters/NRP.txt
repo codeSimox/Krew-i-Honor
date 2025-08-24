@@ -1,0 +1,13 @@
+characters = {
+	NRP_braun_leader={
+		name=NRP_braun_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_NRP_braun_leader
+			}
+		}
+		country_leader = {
+			ideology = absolutyzm
+		}
+	}
+}

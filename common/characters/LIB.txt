@@ -1,0 +1,13 @@
+characters = {
+	LIB_great_leader={
+		name=LIB_great_leader
+		portraits={
+			civilian = {
+				large = GFX_portrait_LIB_character
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+		}
+	}
+}

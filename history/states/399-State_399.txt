@@ -1,0 +1,15 @@
+state={
+	id=399
+	name="STATE_399"
+	provinces={
+		83 291 427 593 677 693 1200 1319 1544 2231 2372 2677 2681 2982 3282 4279 4813 5326 5961 9593 9618 9619 9623 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = SZP
+		add_core_of = SZP
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		19 22 104 615 1155 1262 1690 1994 2741 2902 3039 3395 3522 4383 5119 5136 5170 5776 6044 6505 9577 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+
+	history = {
+		owner = PRL
+		add_core_of = PRL
+	}
+}
