@@ -1,3 +1,13 @@
+#nieistotne, to tylko bookmark
+spriteTypes = {
+    spriteType = {
+        name = GFX_select_date_2025
+        texturefile = gfx/interface/select_date_2025.dds
+    }
+}
+
+#--------------------------------------------------------------------#
+
 spriteTypes = {
     spriteType = {
         name = GFX_ideology_discopolo_group

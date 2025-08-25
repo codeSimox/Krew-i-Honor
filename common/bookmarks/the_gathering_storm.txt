@@ -1,0 +1,39 @@
+bookmarks = {
+	bookmark = {
+		name = "KRAJOBRAZ_POWYBORCZY"
+		desc = "KRAJOBRAZ_POWYBORCZY_DESC"
+		date = 2025.6.1.12
+		picture = "GFX_select_date_2025"
+		default_country = "NRP"
+		default = yes
+		
+		"NRP"={
+			history = "NRP_BOOKMARK_DESC"
+			ideology = monarchia
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+
+		# minors from DLC ####
+		"LIB"={
+			minor = yes
+			history = "LIB_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
