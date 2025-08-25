@@ -1,10 +1,6 @@
 spriteTypes = {
     spriteType = {
-        name = GFX_focus_factory1
-        texturefile = gfx/interface/goals/factory1.png   
-    }
-    spriteType = {
-        name = GFX_focus_icon_shine # Change the name, note to keep _shine in the end
+        name = GFX_focus_factory1_shine # Change the name, note to keep _shine in the end
         texturefile = gfx/interface/goals/factory1.png # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
