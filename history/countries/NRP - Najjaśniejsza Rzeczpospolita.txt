@@ -29,3 +29,7 @@ set_popularities = {
 	monarchia = 100
 	nacjonalizm = 0
 }
+
+add_ideas = {
+	generalna_ideja
+}

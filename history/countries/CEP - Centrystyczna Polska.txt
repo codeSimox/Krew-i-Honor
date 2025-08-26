@@ -31,3 +31,7 @@ set_popularities = {
 	agraryzm = 21
 	democratic = 3
 }
+
+add_ideas = {
+	generalna_ideja
+}

@@ -7,14 +7,84 @@ bookmarks = {
 		default_country = "NRP"
 		default = yes
 		
+		"RPL"={
+			history = "RPL_BOOKMARK_DESC"
+			ideology = nacjonalizm
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
+			}
+		}
+		"UPO"={
+			history = "UPO_BOOKMARK_DESC"
+			ideology = demokracjawalczaca
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
+			}
+		}
+		"CEP"={
+			history = "CEP_BOOKMARK_DESC"
+			ideology = centryzm
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
+			}
+		}
+		"KON"={
+			history = "KON_BOOKMARK_DESC"
+			ideology = kapitalizm
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
+			}
+		}
 		"NRP"={
 			history = "NRP_BOOKMARK_DESC"
 			ideology = monarchia
 			ideas = {
-
+				generalna_ideja
 			}
 			focuses = {
 
+			}
+		}
+		"PAJ"={
+			history = "PAJ_BOOKMARK_DESC"
+			ideology = narodowysocjalizm
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
+			}
+		}
+		"FLS"={
+			history = "FLS_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
+			}
+		}
+		"DIP"={
+			history = "DIP_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+				
 			}
 		}
 
@@ -25,7 +95,29 @@ bookmarks = {
 			history = "LIB_BOOKMARK_DESC"
 			ideology = democratic
 			ideas = {
+				generalna_ideja
+			}
+			focuses = {
 			
+			}
+		}
+		"IPL"={
+			minor = yes
+			history = "IPL_BOOKMARK_DESC"
+			ideology = imperializm
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"KAM"={
+			minor = yes
+			history = "KAM_BOOKMARK_DESC"
+			ideology = autorytaryzm
+			ideas = {
+				generalna_ideja
 			}
 			focuses = {
 			

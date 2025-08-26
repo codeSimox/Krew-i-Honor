@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		generalna_ideja = {
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				political_power_gain = 0.2
+				war_support_factor = -0.3
+				stability_factor = -0.3
+				justify_war_goal_time = 2
+				consumer_goods_factor = 0.33
+				industrial_capacity_factory = -0.25
+			}
+		}
+	}
+}

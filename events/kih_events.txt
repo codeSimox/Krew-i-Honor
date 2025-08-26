@@ -1,0 +1,26 @@
+add_namespace = mod_event
+
+country_event = {
+	id = mod_event.1
+	title = "Nowy porządek."
+	desc = "Po wyborach Anno Domini 2025, brooklyńśka rada żydów zadecydowała, że polaków trzeba wystrzelić w kosmos. Tak też uczyniono, więc teraz dalsze losy tego pięknego narodu spoczywają w rękach mniej lub bardziej rozgarniętych polityków."
+	picture = GFX_report_event_generic_read_write
+
+	trigger = {
+		is_ai = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {
+			base = 1
+		}
+		name = "Ciekawe jak potoczy się ta historia."
+		add_manpower = 1
+	}
+}

@@ -29,3 +29,7 @@ set_popularities = {
 	kapitalizm = 60
 	nacjonalizm = 40
 }
+
+add_ideas = {
+	generalna_ideja
+}

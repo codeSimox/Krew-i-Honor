@@ -30,3 +30,7 @@ set_popularities = {
 	kaczyzm = 20
 	autorytaryzm = 15
 }
+
+add_ideas = {
+	generalna_ideja
+}

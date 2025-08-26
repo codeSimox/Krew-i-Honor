@@ -1,7 +1,14 @@
 ﻿l_polish:
- KRAJOBRAZ_POWYBORCZY:0 "Krajobraz Powyborczy"
- KRAJOBRAZ_POWYBORCZY_DESC:0 "Świat w krajobrazie powyborczym roku 2025."
+ KRAJOBRAZ_POWYBORCZY:0 "Nowy Świat"
+ KRAJOBRAZ_POWYBORCZY_DESC:0 "Po wyborach Anno Domini 2025, brooklyńśka rada żydów zadecydowała, że polaków trzeba wystrzelić w kosmos. Tak też uczyniono, więc teraz dalsze losy tego pięknego narodu spoczywają w rękach mniej lub bardziej rozgarniętych polityków."
 
- NRP_BOOKMARK_DESC:0 "Państwo powstałe wokół wyborców Jego Ekscelencji Grzegorza Brauna. Ma kilku silnych przywódców; powstaje więc pytanie który z nich zabezpieczy swoją władzę."
+ RPL_BOOKMARK_DESC:0 "Karol Nawrocki po wydaleniu z Ziemi zyskał więcej władzy niż dotąd posiadał. Czega go ciężka prezydentura. Czy uda mu się wytrzymać presję? Czy prezes odzyska władzę? A może zdarzy się coś jeszcze innego? Tego nie wie nikt."
+ NRP_BOOKMARK_DESC:0 "Państwo powstałe wokół wyborców Jego Ekscelencji Grzegorza Brauna. Ma kilku silnych przywódców; powstaje więc pytanie który z nich zabezpieczy swoją władzę i utworzy silne państwo."
+ UPO_BOOKMARK_DESC:0 "Chociaż z zewnątrz jego państwo wygląda na uśmiechnięte, w środku targają nim poważne konflikty. U szczytu pełni władzy zmagają się Tęczowy Rafał, Herr Tüsk, oraz Książe Małżonek. Obywatele na szczęście nie mają żadnych problemów, gdyż przyzwyczajeni są już do łykania propagandy, jak głupia by ona nie była. Ten kraj oferuje wiele ciekawych dróg."
+ CEP_BOOKMARK_DESC:0 "Państwo Trzeciej Drogi podzielone miedzy ludowców a fajnopolackich centrystów stoi w trudnej sytuacji na samym początku swojego istnienia. W tym podziale istnieje jednak potencjał na różnorodnie silne państwo jeśli jednak uda się przekonać do zostawienia plecaków ewakuacyjnych w spokoju."
+ KON_BOOKMARK_DESC:0 "Konfederacja po założeniu swojego wolnorynkowego imperium stała się bardzo podatna na szkody wynikające z różnic wewnątrzpartyjnych. Ruch Narodowy coraz częściej nie zgadza się z polityką Mentzena, a na horyzoncie rysuje się widmo PiS'u wprowadzanego do państwa tylnymi drzwiami przez Wipleta."
+ PAJ_BOOKMARK_DESC:0 "Urodzony Białym możesz tu budować swój dom. Urodzony tylko Białym Na tej ziemi jesteś jak plon. Wieki przeminęły niosąc ogień dla Twojej krwi, który bezustannie aryjskim blaskiem wciąż się tli. Białe dziedzictwo aryjskiej rasy głos, którego przyszłość zależy dziś od Ciebie. Jeszcze niedawno świat mógłbyć ocalony. Dziś jest inaczej więc rasy swojej broń. Siłą swojej woli hebrajski korzeń wyrwij z tych stron, by na zawsze niezależny aryjskim tonem zabrzmiał Twój głos. Czystej rasy płomień niech rozjaśnia zawsze Twój dom. Duma Twoich Białych Dzieci kiedyś znów wyzwoli ten ląd"
+ FLS_BOOKMARK_DESC:0 "Praktycznie od razu po zorganizowaniu się państwa na nowej ziemi zaczęły się wewnętrzne spory. Sytuacja stała się tak napięta, że państwo stoi na skraju wojny domowej. Kto ją wygra? Czy będzie to k*bieta - Magdalena Biejat? A może wielki Duńczyk Adrian Zandberg? Tego nie wiadomo, jednak frakcji w tym konflikcie jest tyle, że wynik jest nie do przewidzenia."
+ DIP_BOOKMARK_DESC:0 "Niewielka społeczność, zbudowana wokół Macieja Maciaka, póki co żyje w dobrobycie i pokoju. Jendakże jak długo to potrwa?"
 
  LIB_BOOKMARK_DESC:0 "Po prostu Liberec"

@@ -32,3 +32,7 @@ set_popularities = {
 	discopolo = 70
 	demokracjawalczaca = 6
 }
+
+add_ideas = {
+	generalna_ideja
+}

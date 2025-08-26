@@ -30,3 +30,7 @@ set_popularities = {
 	nacjonalizm = 89
 	kaczyzm = 11
 }
+
+add_ideas = {
+	generalna_ideja
+}

@@ -30,3 +30,7 @@ set_popularities = {
 	narodowysocjalizm = 5
 	autorytaryzm = 90
 }
+
+add_ideas = {
+	generalna_ideja
+}

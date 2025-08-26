@@ -34,4 +34,6 @@ set_popularities = {
 	demokracjawalczaca = 7
 }
 
-
+add_ideas = {
+	generalna_ideja
+}

@@ -30,3 +30,7 @@ set_popularities = {
 	communism = 8
 	democratic = 57
 }
+
+add_ideas = {
+	generalna_ideja
+}

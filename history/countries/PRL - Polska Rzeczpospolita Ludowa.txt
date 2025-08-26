@@ -29,3 +29,7 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+
+add_ideas = {
+	generalna_ideja
+}
