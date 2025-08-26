@@ -1,5 +1,5 @@
 name="Krew i Honor"
-version="v0.2"
+version="v0.3"
 tags={
 	"Map"
 	"Utilities"
