@@ -74,10 +74,26 @@ ideas = {
 		}
 	}
 	country = {
-		IPL_idea_pokojibezpieczenstwo = {
+		IPL_idea_patriotycznewychowanie = {
 			modifier = {
-				stability_factor = 0.15
-				monthly_population = 0.05
+				recruitable_population = 0.02
+				stability_factor = 0.05
+				political_power_cost = 0.25
+			}
+		}
+	}
+	country = {
+		IPL_idea_obowiazkowapierwszapomoc = {
+			modifier = {
+				army_org_regain = 0.1
+			}
+		}
+	}
+	country = {
+		IPL_idea_dostepdobroni = {
+			modifier = {
+				mobilization_speed = 0.15
+				army_core_defence_factor = 0.15
 			}
 		}
 	}
