@@ -3,6 +3,20 @@ ideas = {
 		PAJ_Narodowy_socjalizm = {
 			modifier {
 				stability_factor = 0.1
+				political_power_factor = 0.12
+			}
+		}
+		PAJ_slady_odyna = {
+			modifier {
+				supply_consumption_factor = -0.15
+				winter_attrition = -0.2
+			}
+		}
+		PAJ_Poganska_wiara = {
+			modifier {
+				required_garrison_factor = 0.25
+				army_fuel_consumption_factor = 0.2
+				weekly_manpower = 300
 			}
 		}
 	}
