@@ -12,5 +12,10 @@ state={
 		victory_points = { 1472 10}
 		owner = PAJ
 		add_core_of = PAJ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
 	}
 }
