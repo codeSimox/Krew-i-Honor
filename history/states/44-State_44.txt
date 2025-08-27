@@ -5,11 +5,17 @@ state={
 		826 1226 1352 1570 1751 2069 2928 3858 3864 4947 6200 6429 6690 6971 6993 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower= 87236
+        state_category = city
 
 	history = {
+		victory_points = { 3864 5}
+		victory_points = { 1751 8}
 		owner = PAJ
 		add_core_of = PAJ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
 	}
 }

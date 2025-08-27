@@ -5,11 +5,15 @@ state={
 		682 1580 1702 2440 3994 5391 5883 6840 6848 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower= 23041
+        state_category = rural
 
 	history = {
 		owner = PAJ
 		add_core_of = PAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 3994 3}
 	}
 }

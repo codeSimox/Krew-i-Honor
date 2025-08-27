@@ -5,11 +5,17 @@ state={
 		519 726 964 1317 1536 1866 2123 2179 2678 3220 3912 4186 4288 4681 5657 5768 6247 6732 6754 6841 6886 6919 6921 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=64784
         state_category = town
 
 	history = {
 		owner = PAJ
 		add_core_of = PAJ
+		victory_points = { 726 10}
+		victory_points = { 5768 5}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 }
