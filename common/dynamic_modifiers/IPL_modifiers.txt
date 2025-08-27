@@ -1,0 +1,12 @@
+IPL_pokojibezpieczenstwo = {
+	icon = GFX_idea_unknown
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		has_war = yes
+	}
+
+	stability_factor = 0.15
+	monthly_population = 0.05
+}

@@ -269,7 +269,120 @@ focus_tree = {
         }
 
         completion_reward = {
-            add_ideas = IPL_idea_pokojibezpieczenstwo
+            add_dynamic_modifier = {
+                modifier = IPL_pokojibezpieczenstwo
+            }
+        }
+    }
+
+#TRZECIA SIÓDEMKA#
+
+    focus = {
+        id = IPL_odnowienie_symboli
+        cost = 7
+        relative_position_id = IPL_trzy_siodemki
+        x = 3
+        y = 1
+
+        prerequisite = {
+            focus = IPL_trzy_siodemki
+        }
+
+        completion_reward = {
+            add_war_support = 0.05
+        }
+    }
+    focus = {
+        id = IPL_patriotyczne_wychowanie
+        cost = 7
+        relative_position_id = IPL_odnowienie_symboli
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_odnowienie_symboli
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_patriotycznewychowanie
+        }
+    }
+    focus = {
+        id = IPL_nowa_matura
+        cost = 7
+        relative_position_id = IPL_patriotyczne_wychowanie
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_patriotyczne_wychowanie
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_patriotycznewychowanie
+        }
+    }
+    focus = {
+        id = IPL_odnowa_kultury
+        cost = 7
+        relative_position_id = IPL_nowa_matura
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_nowa_matura
+        }
+
+        completion_reward = {
+            add_political_power = 100
+            add_stability = 0.025
+        }
+    }
+    focus = {
+        id = IPL_cenione_obywatelstwo
+        cost = 7
+        relative_position_id = IPL_odnowa_kultury
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_odnowa_kultury
+        }
+
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+    focus = {
+        id = IPL_pelny_dostep_do_broni
+        cost = 7
+        relative_position_id = IPL_cenione_obywatelstwo
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_cenione_obywatelstwo
+        }
+
+        completion_reward = {
+            add_war_support = 0.1
+            add_ideas = IPL_idea_dostepdobroni
+        }
+    }
+    focus = {
+        id = IPL_odbudowa_imperium
+        cost = 7
+        relative_position_id = IPL_pelny_dostep_do_broni
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_pelny_dostep_do_broni
+        }
+
+        completion_reward = {
+            add_war_support = 0.15
+            add_political_power = 100
         }
     }
 }
