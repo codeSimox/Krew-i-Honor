@@ -9,4 +9,28 @@ focus_tree = {
         }
     }
     shared_focus = np_removing_focus_1
+
+    focus = {
+        id = PAJ_Zrobic_jeden_krok_do-przodu
+        cost = 5
+        x = 10
+        y = 0
+        completion_reward = {
+            add_political_power = 50
+        }
+    }
+    focus = {
+        id = PAJ_Niech_powroci_stare_prawo
+        icon = GFX_focus_generic_army_doctrines_2
+        relative_position_id = PAJ_Zrobic_jeden_krok_do-przodu
+        x = -1
+        y = 1
+        prerequisite = {
+            focus = PAJ_Zrobic_jeden_krok_do-przodu
+        }
+        cost = 5
+        completion_reward = {
+            add_ideas = PAJ_Narodowy_socjalizm
+        }
+    }
 }
