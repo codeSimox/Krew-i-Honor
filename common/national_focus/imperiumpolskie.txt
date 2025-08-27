@@ -12,6 +12,7 @@ focus_tree = {
 
     focus = {
         id = IPL_trzy_siodemki
+        icon = GFX_focus_siedem
         cost = 1
         x = 12
         y = 0
@@ -24,6 +25,7 @@ focus_tree = {
 
     focus = {
         id = IPL_nowa_konstytucja
+        icon = GFX_focus_generic_treaty
         cost = 7
         relative_position_id = IPL_trzy_siodemki
         x = -3
@@ -39,6 +41,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_zrownanie_podpisu
+        icon = GFX_focus_computer
         cost = 7
         relative_position_id = IPL_nowa_konstytucja
         x = 0
@@ -54,6 +57,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_ograniczenie_skladu
+        icon = GFX_focus_generic_improve_the_administration
         cost = 7
         relative_position_id = IPL_zrownanie_podpisu
         x = 0
@@ -69,6 +73,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_ograniczenie_wynagrodzenia
+        icon = GFX_focus_fra_devalue_the_franc
         cost = 7
         relative_position_id = IPL_ograniczenie_skladu
         x = 0
@@ -85,6 +90,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_likwidacja_finansowania
+        icon = GFX_focus_nomoremoney
         cost = 7
         relative_position_id = IPL_ograniczenie_wynagrodzenia
         x = 0
@@ -101,6 +107,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_odpowiedzialnosc_majatkowa
+        icon = GFX_focus_generic_monetary_union
         cost = 7
         relative_position_id = IPL_likwidacja_finansowania
         x = 0
@@ -116,6 +123,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_zakaz_pracy_politykow
+        icon = GFX_focus_brakpracyparlamentarzystow
         cost = 7
         relative_position_id = IPL_odpowiedzialnosc_majatkowa
         x = 0
@@ -229,6 +237,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_polska_produkcja
+        icon = GFX_focus_generic_industry_3
         cost = 7
         relative_position_id = IPL_zasady_konkurencji
         x = 0

@@ -1,5 +1,6 @@
 shared_focus = {
 	id = np_removing_focus_1
+	icon = GFX_focus_generic_court
 	cost = 8
 	x = 1
 	y = 0
@@ -20,6 +21,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = np_removing_focus_2
+	icon = GFX_focus_factory1
 	cost = 5
 	relative_position_id = np_removing_focus_1
 	x = 0
@@ -38,6 +40,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = np_removing_focus_2_1
+	icon = GFX_goal_generic_construct_civ_factory
 	cost = 5
 	relative_position_id = np_removing_focus_2
 	x = -1
@@ -68,6 +71,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = np_removing_focus_2_2
+	icon = GFX_goal_generic_construct_mil_factory
 	cost = 5
 	relative_position_id = np_removing_focus_2
 	x = 1
@@ -98,6 +102,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = np_removing_focus_3
+	icon = GFX_focus_generic_printing_press
 	cost = 8
 	relative_position_id = np_removing_focus_2
 	x = 0
@@ -117,6 +122,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = np_removing_focus_4
+	icon = GFX_focus_thumbsup
 	cost = 5
 	relative_position_id = np_removing_focus_3
 	x = 0
@@ -135,6 +141,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = np_removing_focus_5
+	icon = GFX_focus_generic_democratic_europe
 	cost = 10
 	relative_position_id = np_removing_focus_4
 	x = 0

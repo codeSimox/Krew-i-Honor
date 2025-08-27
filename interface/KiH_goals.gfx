@@ -3,4 +3,24 @@ spriteTypes = {
         name = GFX_focus_factory1
         texturefile = gfx/interface/goals/factory1.png   
     }
+    spriteType = {
+        name = GFX_focus_computer
+        texturefile = gfx/interface/goals/computer.png   
+    }
+    spriteType = {
+        name = GFX_focus_thumbsup
+        texturefile = gfx/interface/goals/thumbsup.png   
+    }
+    spriteType = {
+        name = GFX_focus_nomoremoney
+        texturefile = gfx/interface/goals/nomoremoney.png   
+    }
+    spriteType = {
+        name = GFX_focus_brakpracyparlamentarzystow
+        texturefile = gfx/interface/goals/brakpracyparlamentarzystow.png   
+    }
+    spriteType = {
+        name = GFX_focus_siedem
+        texturefile = gfx/interface/goals/siedem.png   
+    }
 }

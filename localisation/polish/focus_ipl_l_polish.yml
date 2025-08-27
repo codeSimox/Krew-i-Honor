@@ -1,2 +1,17 @@
 ﻿l_polish:
- 
+ IPL_trzy_siodemki: "Trzy Siódemki"
+ IPL_trzy_siodemki_desc: "Program Artura Bartoszewicza zakłada 3x7 podstawowych postulatów."
+ IPL_nowa_konstytucja: "Nowa Konstytucja"
+ IPL_nowa_konstytucja_desc: "Obecna sytuacja wymaga opracowania kompletnie nowej Konstytucji."
+ IPL_zrownanie_podpisu: "Zrównanie Podpisu"
+ IPL_zrownanie_podpisu_desc: "Zrównanie podpisu tradycyjnego z profilem zaufanym, procesy demokracji bezpośredniej dostępne na mObywatelu."
+ IPL_ograniczenie_skladu: "Ograniczenie Składu Rządu"
+ IPL_ograniczenie_skladu_desc: "Zlimitowanie składu Rady Ministrów do 8 resortów i do 3 wiceministrów na resort – maks. 33 osoby, zakaz łączenia funkcji posła, senatora i członka Rady Ministrów (zostają: premier, MSZ, MSW, MON, MSkarbu, Ministerstwo Jakości Życia, Ministerstwo Edukacji, Kultury i Dziedzictwa Narodowego, Ministerstwo Ekonomii)."
+ IPL_ograniczenie_wynagrodzenia: "Ograniczenie Wynagrodzenia Rządu"
+ IPL_ograniczenie_wynagrodzenia_desc: "Ograniczenie wynagrodzenia Rady Ministrów, które uzależnia się od wielokrotności minimalnej emerytury i premiuje wartością dwukrotności % wzrostu PKB i dwukrotności % nadwyżki budżetowej do PKB, odbierana część wynagrodzenia w wymiarze dwukrotności % spadku PKB i dwukrotności % deficytu budżetowego do PKB."
+ IPL_likwidacja_finansowania: "Likwidacja Finansowania Partii"
+ IPL_likwidacja_finansowania_desc: "Likwidacja finansowania partii politycznych z budżetu państwa, finansowanie zmienione na dobrowolny odpis podatkowy obywateli, do 1% od PIT i do 0,5% od CIT, którzy corocznie w zeznaniach podatkowych wskazują od 1 do 3 partii, na które przeznaczają łączny swój odpis."
+ IPL_odpowiedzialnosc_majatkowa: "Odpowiedzialność Majątkowa"
+ IPL_odpowiedzialnosc_majatkowa_desc: "Wprowadzenie odpowiedzialności majątkowej polityków i kierownictwa administracji rządowej i samorządowej za ich decyzje."
+ IPL_zakaz_pracy_politykow: "Zakaz Pracy Polityków W SSP"
+ IPL_zakaz_pracy_politykow_desc: "Zakaz pracy członków partii politycznych i ich rodzin w radach nadzorczych i zarządach oraz w całych strukturach spółek skarbu państwa. Odnosi się to zarówno do obecnych członków partii politycznych, jak i tych, którzy w ostatnich 3 latach byli ich członkami."
