@@ -23,7 +23,7 @@ country_event = {
 		}
 		name = paj_event.1.a
 
-		complete_national_focus = PAJ_niech_powroci_stare_prawo
+		complete_national_focus = PAJ_Niech_powroci_stare_prawo
 	}
 	option = {
 		ai_chance = {
@@ -31,7 +31,7 @@ country_event = {
 		}
 		name = paj_event.1.b
 
-		complete_national_focus = PAJ_zew_polnocy
+		complete_national_focus = PAJ_Zew_polnocy
 	}
 	option = {
 		ai_chance = {
@@ -39,6 +39,6 @@ country_event = {
 		}
 		name = paj_event.1.c
 
-		complete_national_focus = PAJ_sciezka_swiatowida
+		complete_national_focus = PAJ_Sciezka_swiatowida
 	}
 }
