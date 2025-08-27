@@ -1,0 +1,9 @@
+ideas = {
+	country = {
+		PAJ_Narodowy_socjalizm = {
+			modifier {
+				stability_factor = 0.1
+			}
+		}
+	}
+}
