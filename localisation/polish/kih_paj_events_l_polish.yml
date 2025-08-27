@@ -1,6 +1,6 @@
 ﻿l_polish:
- paj_event.1.t:0 ""
- paj_event.1.d:0 ""
- paj_event.1.a:0 ""
- paj_event.1.b:0 ""
- paj_event.1.c:0 ""
+ paj_event.1.t: "Słuszny kierunek dla narodu."
+ paj_event.1.d: "Przed rządem pojawiło się niezmiernie ważne pytanie, w którym kierunku mamy zmierzać? Wybór ten zadecyduje czy przetrwamy."
+ paj_event.1.a: "Zachowajmy kurs."
+ paj_event.1.b: "Spójrzmy w kierunku północy."
+ paj_event.1.c: "Powróćmy do korzeni."
