@@ -10,6 +10,12 @@ state={
 
 	history = {
 		owner = PAJ
+		victory_points = {  4385 8 }
 		add_core_of = PAJ
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 3
+		}
 	}
 }
