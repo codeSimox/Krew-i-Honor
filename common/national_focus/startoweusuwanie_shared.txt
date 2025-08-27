@@ -1,0 +1,150 @@
+shared_focus = {
+	id = np_removing_focus_1
+	cost = 8
+	x = 1
+	y = 0
+	offset = {
+		trigger = {
+			tag = LIB
+		}
+		x = 28
+		y = 0
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = generalna_ideja
+			add_idea = generalna_ideja_1
+		}
+	}
+}
+shared_focus = {
+	id = np_removing_focus_2
+	cost = 5
+	relative_position_id = np_removing_focus_1
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = np_removing_focus_1
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = generalna_ideja_1
+			add_idea = generalna_ideja_2
+		}
+	}
+}
+shared_focus = {
+	id = np_removing_focus_2_1
+	cost = 5
+	relative_position_id = np_removing_focus_2
+	x = -1
+	y = 1
+
+	mutually_exclusive = { focus = np_removing_focus_2_2 }
+
+	prerequisite = {
+		focus = np_removing_focus_2
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+                type = industrial_complex
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 3
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+                type = industrial_complex
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+shared_focus = {
+	id = np_removing_focus_2_2
+	cost = 5
+	relative_position_id = np_removing_focus_2
+	x = 1
+	y = 1
+
+	mutually_exclusive = { focus = np_removing_focus_2_1 }
+
+	prerequisite = {
+		focus = np_removing_focus_2
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+                type = arms_factory
+                level = 2
+            }
+            add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+                type = arms_factory
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 1
+		}
+	}
+}
+shared_focus = {
+	id = np_removing_focus_3
+	cost = 8
+	relative_position_id = np_removing_focus_2
+	x = 0
+	y = 2
+
+	prerequisite = {
+		focus = np_removing_focus_2_1
+		focus = np_removing_focus_2_2
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = generalna_ideja_2
+			add_idea = generalna_ideja_3
+		}
+	}
+}
+shared_focus = {
+	id = np_removing_focus_4
+	cost = 5
+	relative_position_id = np_removing_focus_3
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = np_removing_focus_3
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = generalna_ideja_3
+			add_idea = generalna_ideja_4
+		}
+	}
+}
+shared_focus = {
+	id = np_removing_focus_5
+	cost = 10
+	relative_position_id = np_removing_focus_4
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = np_removing_focus_4
+	}
+
+	completion_reward = {
+		remove_ideas = generalna_ideja_4
+	}
+}

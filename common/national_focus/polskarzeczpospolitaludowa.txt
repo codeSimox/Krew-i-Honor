@@ -1,0 +1,12 @@
+focus_tree = {
+    id = prl_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = PRL
+        }
+    }
+    shared_focus = np_removing_focus_1
+}

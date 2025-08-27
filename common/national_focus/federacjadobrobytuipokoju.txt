@@ -1,0 +1,12 @@
+focus_tree = {
+    id = dip_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = DIP
+        }
+    }
+    shared_focus = np_removing_focus_1
+}

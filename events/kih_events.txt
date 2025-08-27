@@ -2,8 +2,8 @@ add_namespace = mod_event
 
 country_event = {
 	id = mod_event.1
-	title = "Nowy porządek."
-	desc = "Po wyborach Anno Domini 2025, brooklyńśka rada żydów zadecydowała, że polaków trzeba wystrzelić w kosmos. Tak też uczyniono, więc teraz dalsze losy tego pięknego narodu spoczywają w rękach mniej lub bardziej rozgarniętych polityków."
+	title = mod_event.1.t
+	desc = mod_event.1.d
 	picture = GFX_report_event_generic_read_write
 
 	trigger = {
@@ -20,7 +20,7 @@ country_event = {
 		ai_chance = {
 			base = 1
 		}
-		name = "Ciekawe jak potoczy się ta historia."
+		name = mod_event.1.a
 		add_manpower = 1
 	}
 }

@@ -1,0 +1,12 @@
+focus_tree = {
+    id = fls_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = FLS
+        }
+    }
+    shared_focus = np_removing_focus_1
+}

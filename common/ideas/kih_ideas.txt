@@ -8,8 +8,62 @@ ideas = {
 				war_support_factor = -0.3
 				stability_factor = -0.3
 				justify_war_goal_time = 2
-				consumer_goods_factor = 0.33
+				consumer_goods_factor = 0.35
 				industrial_capacity_factory = -0.25
+			}
+		}
+	}
+	country = {
+		generalna_ideja_1 = {
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				political_power_gain = 0.2
+				war_support_factor = -0.3
+				stability_factor = -0.15
+				justify_war_goal_time = 2
+				consumer_goods_factor = 0.35
+				industrial_capacity_factory = -0.25
+			}
+		}
+	}
+	country = {
+		generalna_ideja_2 = {
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				political_power_gain = 0.2
+				war_support_factor = -0.3
+				stability_factor = -0.15
+				justify_war_goal_time = 2
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.1
+			}
+		}
+	}
+	country = {
+		generalna_ideja_3 = {
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				political_power_gain = 0.1
+				war_support_factor = -0.3
+				justify_war_goal_time = 2
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.1
+			}
+		}
+	}
+	country = {
+		generalna_ideja_4 = {
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				political_power_gain = 0.1
+				war_support_factor = -0.1
+				justify_war_goal_time = 2
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
 			}
 		}
 	}

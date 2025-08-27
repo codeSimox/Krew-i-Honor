@@ -8,6 +8,7 @@ focus_tree = {
             tag = SOD
         }
     }
+    shared_focus = np_removing_focus_1
 
     focus = {
         id = SOD_focus_1

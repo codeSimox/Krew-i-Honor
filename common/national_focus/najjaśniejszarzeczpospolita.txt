@@ -1,0 +1,12 @@
+focus_tree = {
+    id = nrp_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = NRP
+        }
+    }
+    shared_focus = np_removing_focus_1
+}
