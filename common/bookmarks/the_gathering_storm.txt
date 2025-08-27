@@ -61,10 +61,14 @@ bookmarks = {
 			history = "PAJ_BOOKMARK_DESC"
 			ideology = narodowysocjalizm
 			ideas = {
-				generalna_ideja
+				PAJ_Narodowy_socjalizm
+				PAJ_slady_odyna
+				PAJ_Poganska_wiara
 			}
 			focuses = {
-				
+				PAJ_Niech_powroci_stare_prawo
+				PAJ_Zew_polnocy
+				PAJ_Sciezka_swiatowida
 			}
 		}
 		"FLS"={
@@ -90,17 +94,6 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"LIB"={
-			minor = yes
-			history = "LIB_BOOKMARK_DESC"
-			ideology = democratic
-			ideas = {
-				generalna_ideja
-			}
-			focuses = {
-			
-			}
-		}
 		"IPL"={
 			minor = yes
 			history = "IPL_BOOKMARK_DESC"
@@ -116,6 +109,72 @@ bookmarks = {
 			minor = yes
 			history = "KAM_BOOKMARK_DESC"
 			ideology = autorytaryzm
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"SOD"={
+			minor = yes
+			history = "SOD_BOOKMARK_DESC"
+			ideology = discopolo
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"SZP"={
+			minor = yes
+			history = "SZP_BOOKMARK_DESC"
+			ideology = discopolo
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"RZP"={
+			minor = yes
+			history = "RZP_BOOKMARK_DESC"
+			ideology = discopolo
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"REZ"={
+			minor = yes
+			history = "REZ_BOOKMARK_DESC"
+			ideology = discopolo
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"PRL"={
+			minor = yes
+			history = "PRL_BOOKMARK_DESC"
+			ideology = discopolo
+			ideas = {
+				generalna_ideja
+			}
+			focuses = {
+			
+			}
+		}
+		"LIB"={
+			minor = yes
+			history = "LIB_BOOKMARK_DESC"
+			ideology = discopolo
 			ideas = {
 				generalna_ideja
 			}

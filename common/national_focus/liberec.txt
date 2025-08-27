@@ -1,0 +1,12 @@
+focus_tree = {
+    id = lib_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = LIB
+        }
+    }
+    shared_focus = np_removing_focus_1
+}
