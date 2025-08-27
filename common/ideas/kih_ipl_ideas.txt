@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		IPL_idea_nowakonstytucja = {
+			modifier = {
+				political_power_gain = 0.3
+				stability_factor = 0.1
+			}
+		}
+	}
+	country = {
+		IPL_idea_demokracjabezposrednia = {
+			modifier = {
+				drift_defence_factor = -0.15
+				stability_factor = 0.05
+				war_support_factor = -0.1
+			}
+		}
+	}
+	country = {
+		IPL_idea_ograniczonaradaministrow = {
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = -0.2
+			}
+		}
+	}
+	country = {
+		IPL_idea_spoleczniefinansowanepartie = {
+			modifier = {
+				political_power_gain = 0.5
+				drift_defence_factor = -0.1
+			}
+		}
+	}
+	country = {
+		IPL_idea_odpolitycznionessp = {
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.025
+			}
+		}
+	}
+	country = {
+		IPL_idea_stypendiumdemograficzne = {
+			modifier = {
+				monthly_population = 0.2
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+	country = {
+		IPL_idea_ochronawlasnosciziemi = {
+			modifier = {
+				stability_factor = 0.05
+				trade_opinion_factor = -0.5
+			}
+		}
+	}
+	country = {
+		IPL_idea_produkcjanarodowa = {
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+				min_export = -0.1
+			}
+		}
+	}
+	country = {
+		IPL_idea_przygotowanamlodziez = {
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.02
+			}
+		}
+	}
+	country = {
+		IPL_idea_pokojibezpieczenstwo = {
+			modifier = {
+				stability_factor = 0.15
+				monthly_population = 0.05
+			}
+		}
+	}
+}

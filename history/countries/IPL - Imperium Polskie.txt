@@ -103,8 +103,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	imperializm = 90
-	democratic = 10
+	imperializm = 75
+	democratic = 25
 }
 
 add_ideas = {

@@ -9,4 +9,267 @@ focus_tree = {
         }
     }
     shared_focus = np_removing_focus_1
+
+    focus = {
+        id = IPL_trzy_siodemki
+        cost = 1
+        x = 12
+        y = 0
+        completion_reward = {
+            add_political_power = 25
+        }
+    }
+
+#PIERWSZA SIÓDEMKA#
+
+    focus = {
+        id = IPL_nowa_konstytucja
+        cost = 7
+        relative_position_id = IPL_trzy_siodemki
+        x = -3
+        y = 1
+
+        prerequisite = {
+            focus = IPL_trzy_siodemki
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_nowakonstytucja
+        }
+    }
+    focus = {
+        id = IPL_zrownanie_podpisu
+        cost = 7
+        relative_position_id = IPL_nowa_konstytucja
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_nowa_konstytucja
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_demokracjabezposrednia
+        }
+    }
+    focus = {
+        id = IPL_ograniczenie_skladu
+        cost = 7
+        relative_position_id = IPL_zrownanie_podpisu
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_zrownanie_podpisu
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_ograniczonaradaministrow
+        }
+    }
+    focus = {
+        id = IPL_ograniczenie_wynagrodzenia
+        cost = 7
+        relative_position_id = IPL_ograniczenie_skladu
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_ograniczenie_skladu
+        }
+
+        completion_reward = {
+            add_political_power = 100
+            add_ideas = IPL_idea_spoleczniefinansowanepartie
+        }
+    }
+    focus = {
+        id = IPL_likwidacja_finansowania
+        cost = 7
+        relative_position_id = IPL_ograniczenie_wynagrodzenia
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_ograniczenie_wynagrodzenia
+        }
+
+        completion_reward = {
+            add_political_power = 50
+            add_ideas = IPL_idea_spoleczniefinansowanepartie
+        }
+    }
+    focus = {
+        id = IPL_odpowiedzialnosc_majatkowa
+        cost = 7
+        relative_position_id = IPL_likwidacja_finansowania
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_likwidacja_finansowania
+        }
+
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+    focus = {
+        id = IPL_zakaz_pracy_politykow
+        cost = 7
+        relative_position_id = IPL_odpowiedzialnosc_majatkowa
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_odpowiedzialnosc_majatkowa
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_odpolitycznionessp
+        }
+    }
+
+#DRUGA SIÓDEMKA#
+
+    focus = {
+        id = IPL_liczba_poslow
+        cost = 7
+        relative_position_id = IPL_trzy_siodemki
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_trzy_siodemki
+        }
+
+        completion_reward = {
+            add_political_power = 50
+            add_popularity = {
+                ideology = imperializm
+                popularity = 0.05
+            }
+        }
+    }
+    focus = {
+        id = IPL_stypendium_demograficzne
+        cost = 7
+        relative_position_id = IPL_liczba_poslow
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_liczba_poslow
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_stypendiumdemograficzne
+        }
+    }
+    focus = {
+        id = IPL_ochrona_ziemi
+        cost = 7
+        relative_position_id = IPL_stypendium_demograficzne
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_stypendium_demograficzne
+        }
+
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            add_ideas = IPL_idea_ochronawlasnosciziemi
+        }
+    }
+    focus = {
+        id = IPL_zasady_konkurencji
+        cost = 7
+        relative_position_id = IPL_ochrona_ziemi
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_ochrona_ziemi
+        }
+
+        completion_reward = {
+            add_political_power = 100
+            add_stability = 0.05
+        }
+    }
+    focus = {
+        id = IPL_polska_produkcja
+        cost = 7
+        relative_position_id = IPL_zasady_konkurencji
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_zasady_konkurencji
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_produkcjanarodowa
+        }
+    }
+    focus = {
+        id = IPL_edukacja_mlodziezy
+        cost = 7
+        relative_position_id = IPL_polska_produkcja
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_polska_produkcja
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_przygotowanamlodziez
+        }
+    }
+    focus = {
+        id = IPL_pokoj_i_bezpieczenstwo
+        cost = 7
+        relative_position_id = IPL_edukacja_mlodziezy
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = IPL_edukacja_mlodziezy
+        }
+
+        completion_reward = {
+            add_ideas = IPL_idea_pokojibezpieczenstwo
+        }
+    }
 }
