@@ -8,6 +8,10 @@ characters = {
 		}
 		country_leader = {
 			ideology = junta
+			traits = {
+				KAM_jaszczur_aktor
+			}
+			desc = KAM_jaszczur_leader_desc
 		}
 	}
 }

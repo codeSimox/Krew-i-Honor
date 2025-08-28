@@ -1,26 +1,30 @@
 spriteTypes = {
     spriteType = {
         name = GFX_focus_factory1
-        texturefile = gfx/interface/goals/factory1.png   
+        texturefile = gfx/interface/goals/factory1.dds   
     }
     spriteType = {
         name = GFX_focus_computer
-        texturefile = gfx/interface/goals/computer.png   
+        texturefile = gfx/interface/goals/computer.dds   
     }
     spriteType = {
         name = GFX_focus_thumbsup
-        texturefile = gfx/interface/goals/thumbsup.png   
+        texturefile = gfx/interface/goals/thumbsup.dds   
     }
     spriteType = {
         name = GFX_focus_nomoremoney
-        texturefile = gfx/interface/goals/nomoremoney.png   
+        texturefile = gfx/interface/goals/nomoremoney.dds   
     }
     spriteType = {
         name = GFX_focus_brakpracyparlamentarzystow
-        texturefile = gfx/interface/goals/brakpracyparlamentarzystow.png   
+        texturefile = gfx/interface/goals/brakpracyparlamentarzystow.dds   
     }
     spriteType = {
         name = GFX_focus_siedem
-        texturefile = gfx/interface/goals/siedem.png   
+        texturefile = gfx/interface/goals/siedem.dds   
+    }
+    spriteType = {
+        name = GFX_focus_peopleup
+        texturefile = gfx/interface/goals/peopleup.dds   
     }
 }

@@ -5,11 +5,14 @@ state={
 		263 967 1921 3941 4785 4949 5058 5091 5277 5604 6456 9001 9043 9070 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2731
+        state_category = wasteland
 
 	history = {
 		owner = KAM
 		add_core_of = KAM
+		buildings = {
+			infrastructure = 1
+		}
 	}
 }

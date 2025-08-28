@@ -1,10 +1,10 @@
 spriteTypes = {
     spriteType = {
         name = GFX_focus_factory1_shine # Change the name, note to keep _shine in the end
-        texturefile = gfx/interface/goals/factory1.png # Change to the focus icon
+        texturefile = gfx/interface/goals/factory1.dds # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/factory1.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/factory1.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -16,7 +16,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/factory1.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/factory1.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
@@ -31,10 +31,10 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_computer_shine # Change the name, note to keep _shine in the end
-        texturefile = gfx/interface/goals/computer.png # Change to the focus icon
+        texturefile = gfx/interface/goals/computer.dds # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/computer.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/computer.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -46,7 +46,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/computer.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/computer.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
@@ -61,10 +61,10 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_thumbsup_shine # Change the name, note to keep _shine in the end
-        texturefile = gfx/interface/goals/thumbsup.png # Change to the focus icon
+        texturefile = gfx/interface/goals/thumbsup.dds # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/thumbsup.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/thumbsup.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -76,7 +76,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/thumbsup.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/thumbsup.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
@@ -91,10 +91,10 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_nomoremoney_shine # Change the name, note to keep _shine in the end
-        texturefile = gfx/interface/goals/nomoremoney.png # Change to the focus icon
+        texturefile = gfx/interface/goals/nomoremoney.dds # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/nomoremoney.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/nomoremoney.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -106,7 +106,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/nomoremoney.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/nomoremoney.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
@@ -121,10 +121,10 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_brakpracyparlamentarzystow_shine # Change the name, note to keep _shine in the end
-        texturefile = gfx/interface/goals/brakpracyparlamentarzystow.png # Change to the focus icon
+        texturefile = gfx/interface/goals/brakpracyparlamentarzystow.dds # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/brakpracyparlamentarzystow.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/brakpracyparlamentarzystow.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -136,7 +136,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/brakpracyparlamentarzystow.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/brakpracyparlamentarzystow.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
@@ -151,10 +151,10 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_siedem_shine # Change the name, note to keep _shine in the end
-        texturefile = gfx/interface/goals/siedem.png # Change to the focus icon
+        texturefile = gfx/interface/goals/siedem.dds # Change to the focus icon
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/siedem.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/siedem.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -166,7 +166,37 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/siedem.png # Change to the focus icon
+            animationmaskfile = gfx/interface/goals/siedem.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_focus_peopleup_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/peopleup.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/peopleup.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/peopleup.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
