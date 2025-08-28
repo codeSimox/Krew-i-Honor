@@ -49,6 +49,80 @@ focus_tree = {
         }
     }
     focus = {
+        id = RZP_dotacjenarzecznauki
+        cost = 7
+        icon = GFX_focus_generic_university_3
+        relative_position_id = RZP_gospodarkapiwna
+        x = 0
+        y = 1
+        prerequisite = {
+        focus =  RZP_gospodarkapiwna 
+        }
+        completion_reward = {
+            add_research_slot = 1
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = electronics
+            }
+        }
+    }
+    focus = {
+        id = RZP_reformaszkolnictwa
+        cost = 7
+        icon = GFX_focus_generic_university_3
+        relative_position_id = RZP_gospodarkapiwna
+        x = 0
+        y = 1
+        prerequisite = {
+        focus =  RZP_gospodarkapiwna 
+        }
+        available = {
+            RZP = {
+                num_of_factories > 19
+            }
+        }
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+    focus = {
+        id = RZP_dotacjenarzecznauki
+        cost = 7
+        icon = GFX_focus_generic_university_1
+        relative_position_id = RZP_reformaszkolnictwa
+        x = 0
+        y = 1
+        prerequisite = {
+        focus =  RZP_reformaszkolnictwa 
+        }
+        available = {
+            RZP = {
+                num_of_factories > 39
+            }
+        }
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+    focus = {
+        id = RZP_wpiwietkwiwiedza
+        cost = 7
+        icon = GFX_focus_generic_university_2
+        relative_position_id = RZP_dotacjenarzecznauki
+        x = 0
+        y = 2
+        prerequisite = {
+        focus =  RZP_dotacjenarzecznauki 
+        }
+        available = {
+            is_free_or_subject_of_root = yes
+        }
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+    focus = {
         id = RZP_browarzywiecki
         cost = 5
         icon = GFX_goal_generic_construct_civ_factory
