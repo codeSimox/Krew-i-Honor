@@ -1,0 +1,11 @@
+KAM_przyg_mod = {
+	icon = GFX_idea_unknown
+
+	enable = {
+		always = yes
+	}
+
+	army_attack_factor = 0.25
+	army_breakthrough_against_minor_factor = 0.75
+	army_org_factor = KAM_przyg_org
+}

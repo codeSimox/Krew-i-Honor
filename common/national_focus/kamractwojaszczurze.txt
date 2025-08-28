@@ -277,10 +277,180 @@ focus_tree = {
         id = KAM_focus_delegacja
         icon = GFX_focus_generic_diplomatic_treaty
         cost = 5
-        x = 25
+        x = 20
         y = 0
         completion_reward = {
+            country_event = kam_event.1
+        }
+    }
+
+#ŚCIEŻKA PRZYJAŹNI#
+
+    focus = {
+        id = KAM_przyjazn_z_piwokrata
+        icon = GFX_focus_generic_treaty
+        cost = 69
+        relative_position_id = KAM_focus_delegacja
+        x = -3
+        y = 1
+
+        available = {
+            always = no
+        }
+
+        mutually_exclusive = {
+            focus = KAM_smierc_wrogom_ojczyzny   
+        }
+
+        prerequisite = {
+            focus = KAM_focus_delegacja
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+#ŚCIEŻKA WOJNY#
+
+    focus = {
+        id = KAM_smierc_wrogom_ojczyzny
+        icon = GFX_focus_generic_attack_poland
+        cost = 69
+        relative_position_id = KAM_focus_delegacja
+        x = 3
+        y = 1
+
+        available = {
+            always = no
+        }
+
+        mutually_exclusive = {
+            focus = KAM_przyjazn_z_piwokrata   
+        }
+
+        prerequisite = {
+            focus = KAM_focus_delegacja
+        }
+
+        completion_reward = {
             
+        }
+    }
+    focus = {
+        id = KAM_focus_propaganda_wojenna
+        icon = GFX_idea_generic_war_preparation
+        cost = 5
+        relative_position_id = KAM_smierc_wrogom_ojczyzny
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_smierc_wrogom_ojczyzny
+        }
+
+        completion_reward = {
+            add_war_support = 0.1
+        }
+    }
+    focus = {
+        id = KAM_focus_ostateczne_rozwiazanie
+        icon = GFX_idea_generic_war_preparation
+        cost = 5
+        relative_position_id = KAM_focus_propaganda_wojenna
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_propaganda_wojenna
+        }
+
+        completion_reward = {
+            add_war_support = 0.1
+            country_event = kam_event.3
+        }
+    }
+    focus = {
+        id = KAM_focus_przygotowanie_ofensywy
+        icon = GFX_idea_generic_war_preparation
+        cost = 10
+        relative_position_id = KAM_focus_ostateczne_rozwiazanie
+        x = 1
+        y = 1
+
+        available = {
+            NOT = {
+                has_completed_focus = KAM_focus_a_wiec_wojna
+            }
+        }
+
+        prerequisite = {
+            focus = KAM_focus_ostateczne_rozwiazanie
+        }
+
+        completion_reward = {
+            set_country_flag = KAM_przygotowanie_done
+        }
+    }
+    focus = {
+        id = KAM_focus_nowa_jakosc
+        icon = GFX_idea_generic_war_preparation
+        cost = 8
+        relative_position_id = KAM_focus_przygotowanie_ofensywy
+        x = 0
+        y = 1
+
+        available = {
+            NOT = {
+                has_completed_focus = KAM_focus_a_wiec_wojna
+            }
+        }
+
+        prerequisite = {
+            focus = KAM_focus_przygotowanie_ofensywy
+        }
+
+        completion_reward = {
+            set_country_flag = KAM_nowajakosc_done
+        }
+    }
+    focus = {
+        id = KAM_focus_a_wiec_wojna
+        icon = GFX_idea_generic_war_preparation
+        cost = 10
+        relative_position_id = KAM_focus_ostateczne_rozwiazanie
+        x = -1
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_ostateczne_rozwiazanie
+        }
+
+        will_lead_to_war_with = RZP
+
+        completion_reward = {
+            if = {
+                limit = {
+                    has_country_flag = KAM_przygotowanie_done
+                }
+                add_dynamic_modifier = {
+                    modifier = KAM_przyg_mod
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = KAM_nowajakosc_done
+                }
+                set_variable = {
+                    KAM_przyg_org = 0.35
+                }
+            }
+            KAM = {
+                declare_war_on = {
+                    target = RZP
+                    type = annex_everything
+                }
+            }
         }
     }
 }

@@ -1,0 +1,68 @@
+add_namespace = kam_event
+
+country_event = {
+	id = kam_event.1
+	title = kam_event.1.t
+	desc = kam_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		ai_chance = {
+			base = 25
+		}
+		name = kam_event.1.a
+
+		RZP = {
+			country_event = rzp_event.1
+		}
+	}
+	option = {
+		ai_chance = {
+			base = 15
+		}
+		name = kam_event.1.b
+
+		complete_national_focus = KAM_smierc_wrogom_ojczyzny
+		RZP = {
+			country_event = rzp_event.2
+		}
+	}
+}
+country_event = {
+	id = kam_event.2
+	title = kam_event.2.t
+	desc = kam_event.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		ai_chance = {
+			base = 25
+		}
+		name = kam_event.1.a
+		KAM = {
+			complete_national_focus = KAM_smierc_wrogom_ojczyzny
+		}
+	}
+}
+country_event = {
+	id = kam_event.3
+	title = kam_event.3.t
+	desc = kam_event.3.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		ai_chance = {
+			base = 25
+		}
+		name = kam_event.3.a
+	}
+}
