@@ -27,4 +27,8 @@ spriteTypes = {
         name = GFX_focus_peopleup
         texturefile = gfx/interface/goals/peopleup.dds   
     }
+    spriteType = {
+        name = GFX_focus_gospiw
+        texturefile =  gfx/interface/goals/gospiw.dds
+    }
 }

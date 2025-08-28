@@ -1,5 +1,5 @@
 RZP_api = {
-	icon = GFX_idea_unknown
+	icon = GFX_idea_RZP_api
 	enable = {
 		always = yes
 	}
