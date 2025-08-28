@@ -10,6 +10,8 @@ focus_tree = {
     }
     shared_focus = np_removing_focus_1
 
+#DRZEWKO PRZEMYSŁOWE#
+
     focus = {
         id = KAM_przem1
         icon = GFX_focus_generic_improve_roads
@@ -186,6 +188,22 @@ focus_tree = {
                     type = industrial_complex
                     level = 2
                 }
+            }
+        }
+    }
+
+#DRZEWKO ARMII#
+
+    focus = {
+        id = KAM_armia_1
+        icon = GFX_focus_generic_army_doctrines_2
+        cost = 5
+        x = x
+        y = x
+        completion_reward = {
+            add_doctrine_cost_reduction = {
+                cost_reduction = x
+                name = x
             }
         }
     }
