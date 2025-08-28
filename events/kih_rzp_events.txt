@@ -46,3 +46,36 @@ country_event = {
 		name = rzp_event.2.a
 	}
 }
+country_event = {
+	id = rzp_event.3
+	title = rzp_event.3.t
+	desc = rzp_event.3.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		ai_chance = {
+			base = 1
+		}
+		name = rzp_event.3.a
+
+		RZP = {
+			complete_national_focus = RZP_suwerennarp
+			add_ideas = RZP_idea_frontwolnosci
+		}
+	}
+	option = {
+		ai_chance = {
+			base = 1
+		}
+		name = rzp_event.3.b
+
+		RZP = {
+			complete_national_focus = RZP_wesprzyjmypis
+			add_ideas = RZP_idea_wiernysojusznik
+		}
+	}
+}

@@ -12,3 +12,15 @@ RZP_api = {
 	recruitable_population_factor = RZP_recfac
 	weekly_manpower = RZP_wm
 }
+RZP_pdr = {
+	icon = GFX_idea_gre_metaxism
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		has_war = yes
+	}
+
+	consumer_goods_factor = pdrcgf
+	production_speed_arms_factory_factor = pdraff
+}
