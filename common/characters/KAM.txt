@@ -77,7 +77,7 @@ characters = {
 			}
 			available = {
 				KAM = {
-					has_ideology_group = autorytaryzm
+					has_government = autorytaryzm
 				}
 			}
 		}
