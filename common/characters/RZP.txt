@@ -9,5 +9,6 @@ characters = {
 		country_leader = {
 			ideology = nac
 		}
+		
 	}
 }
