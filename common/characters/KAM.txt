@@ -76,7 +76,9 @@ characters = {
 				spokojny_towarzysz
 			}
 			available = {
-				has_ideology_group = autorytaryzm
+				KAM = {
+					has_ideology_group = autorytaryzm
+				}
 			}
 		}
 	}
