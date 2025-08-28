@@ -3,4 +3,8 @@ spriteTypes = {
 		name = GFX_idea_RZP_idea_znacjonalizowanebrowary
 		texturefile = gfx/interface/ideas/piwo.dds
 	}
+	spriteType = {
+		name = GFX_idea_RZP_api
+		texturefile = gfx/interface/ideas/beczki.dds
+	}
 }
