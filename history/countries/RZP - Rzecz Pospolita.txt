@@ -33,4 +33,5 @@ set_popularities = {
 
 add_ideas = {
 	generalna_ideja
+	RZP_idea_znacjonalizowanebrowary
 }

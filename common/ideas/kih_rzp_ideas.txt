@@ -42,3 +42,15 @@ ideas = {
 		}
 	}
 }
+ideas = {
+	country = {
+		RZP_idea_znacjonalizowanebrowary = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+				army_org_factor = -0.03
+				ground_attack_factor = 0.05
+			}
+		}
+	}
+}

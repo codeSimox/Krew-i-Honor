@@ -1,4 +1,4 @@
-capital = 438
+capital = 437
 
 oob = "KAM_2025"
 
@@ -6,6 +6,7 @@ set_convoys = 0
 set_research_slots = 2
 
 recruit_character = KAM_jaszczur_leader
+recruit_character = KAM_osadowski
 
 set_technology = {
 	infantry_weapons = 1
