@@ -5,11 +5,20 @@ state={
 		963 3016 3503 5294 6250 9284 
 	}
 	buildings_max_level_factor=1.000
-        manpower=50000
-        state_category = town
+        manpower=804237
+        state_category = metropolis
 
 	history = {
 		owner = KAM
 		add_core_of = KAM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+			963 = {
+				supply_node = 1
+			}
+		}
+		victory_points = { 963 25 }
 	}
 }

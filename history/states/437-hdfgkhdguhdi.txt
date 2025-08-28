@@ -6,10 +6,21 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = town
+        state_category = city
 
 	history = {
 		owner = KAM
 		add_core_of = KAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			9310 15
+		}
+	}
+	resources = {
+		steel = 8
+		tungsten = 32
 	}
 }
