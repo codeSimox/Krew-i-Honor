@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		RZP_pci = {
+			modifier = {
+				compliance_growth = 0.2
+			army_morale = 5
+			consumer_goods_factor = -0.15
+			production_speed_buildings_factor = -0.1
+			}
+			
+		}
+		RZP_pci1 = {
+			modifier = {
+				compliance_growth = 0.2
+			army_morale = 5
+			consumer_goods_factor = -0.15
+			production_speed_buildings_factor = -0.1
+			production_speed_industrial_complex_factor = 0.15
+			}
+			
+		}
+		RZP_pci2 = {
+			modifier = {
+				compliance_growth = 0.2
+			army_morale = 5
+			consumer_goods_factor = -0.15
+			production_speed_buildings_factor = -0.1
+			industrial_capacity_factory = 0.3
+			}
+			
+		}
+		RZP_pci3 = {
+			modifier = {
+			compliance_growth = 0.2
+			army_morale = 5
+			consumer_goods_factor = -0.15
+			production_speed_buildings_factor = -0.1
+			industrial_capacity_factory = 0.3
+			production_speed_industrial_complex_factor = 0.15
+			}
+			
+		}
+	}
+}

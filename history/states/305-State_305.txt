@@ -15,5 +15,6 @@ state={
 			dockyard = 1
 			infrastructure = 3
 		}
+		victory_points = { 6797 8 }
 	}
 }
