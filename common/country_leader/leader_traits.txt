@@ -15,4 +15,10 @@ leader_traits = {
 		conscription = 0.015
 		war_support_factor = 0.1
 	}
+	KAM_kawalerzysta = {
+		random = no
+		
+		cavalry_attack_factor = 0.25
+		cavalry_defence_factor = 0.15
+	}
 }

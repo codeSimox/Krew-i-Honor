@@ -5,14 +5,40 @@ characters = {
 			civilian = {
 				large = GFX_portrait_KAM_character
 			}
+			army = {
+				small = GFX_portrait_KAM_jaszczur_general_s
+				large = GFX_portrait_KAM_jaszczur_general_l
+			}
 		}
 		country_leader = {
 			ideology = junta
 			traits = {
 				KAM_jaszczur_aktor
 				KAM_dyktator_general
+				KAM_kawalerzysta
 			}
 			desc = KAM_jaszczur_leader_desc
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				trait_reckless
+				harsh_leader
+				cavalry_leader
+				cavalry_expert
+				brave
+				ranger
+				aggressive_assaulter
+				offensive_doctrine
+				logistics_wizard
+				organizer
+				cavalry_officer
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 }
