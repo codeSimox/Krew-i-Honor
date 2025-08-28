@@ -5,11 +5,17 @@ state={
 		368 546 581 897 910 1401 2096 2345 2368 2983 3201 3321 3354 3371 3738 4228 4274 4492 4543 4641 4672 5152 5832 6529 8900 8935 8995 9036 9040 9045 9048 9064 9066 9097 9118 9127 9160 9179 9189 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=14819
+        state_category = pastoral
 
 	history = {
 		owner = RZP
 		add_core_of = RZP
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {
+		rubber = 18
 	}
 }

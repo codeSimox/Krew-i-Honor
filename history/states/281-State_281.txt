@@ -18,4 +18,7 @@ state={
 		}
 		victory_points = { 5473 12}
 	}
+	resources = {
+		tungsten = 23
+	}
 }
