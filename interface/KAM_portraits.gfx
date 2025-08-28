@@ -7,4 +7,12 @@ spriteTypes = {
 		name = GFX_portrait_KAM_jaszczur_general_l
 		textureFile = gfx/generals/KAM/jaszczur_l.png
 	}
+	spriteType = {
+		name = GFX_portrait_KAM_osadowski_general_s
+		textureFile = gfx/generals/KAM/osadowski_s.png
+	}
+	spriteType = {
+		name = GFX_portrait_KAM_osadowski_general_l
+		textureFile = gfx/generals/KAM/osadowski_l.png
+	}
 }

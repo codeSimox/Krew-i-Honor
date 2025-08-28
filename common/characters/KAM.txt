@@ -40,5 +40,44 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
+		advisor = {
+			slot = theorist
+			idea_token = KAM_jaszczur_advisor
+			ledger = army
+			traits = {
+				military_theorist
+			}
+			cost = 125
+		}
+	}
+	KAM_osadowski={
+		name = KAM_osadowski
+		portraits = {
+			army = {
+				small = GFX_portrait_KAM_osadowski_general_s
+				large = GFX_portrait_KAM_osadowski_general_l
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_expert
+				trait_cautious
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = KAM_osadowski_advisor
+			traits = {
+				spokojny_towarzysz
+			}
+			available = {
+				has_ideology_group = autorytaryzm
+			}
+		}
 	}
 }
