@@ -1,0 +1,14 @@
+RZP_api = {
+	icon = GFX_idea_unknown
+	enable = {
+		always = yes
+	}
+
+	compliance_growth = RZP_comp
+	army_morale = RZP_moral
+	consumer_goods_factor = RZP_cons
+	production_speed_buildings_factor = RZP_prbud
+	stability_weekly = RZP_stabwe
+	recruitable_population_factor = RZP_recfac
+	weekly_manpower = RZP_wm
+}
