@@ -5,11 +5,15 @@ state={
 		194 406 1403 2238 2679 4377 5188 5455 5609 6740 9225 9232 9305 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=13743
         state_category = town
 
 	history = {
 		owner = DIP
 		add_core_of = DIP
+		buildings = {
+			infrastructure = 1
+		}
+
 	}
 }

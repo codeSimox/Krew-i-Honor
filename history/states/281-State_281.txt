@@ -5,11 +5,20 @@ state={
 		802 2297 2654 2835 2904 3540 3833 4348 4378 4739 5473 5770 6392 8771 8815 8845 8848 8901 8916 8948 8953 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=46233
         state_category = town
 
 	history = {
 		owner = RZP
 		add_core_of = RZP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = { 5473 12}
+	}
+	resources = {
+		tungsten = 23
 	}
 }

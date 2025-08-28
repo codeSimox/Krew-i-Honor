@@ -5,11 +5,16 @@ state={
 		181 250 510 1218 1480 1815 2850 2944 3045 3270 3944 4788 4924 5231 5469 5563 5973 6502 6655 8727 8814 8859 8933 8947 8967 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=92317
+        state_category = city
 
 	history = {
 		owner = RZP
 		add_core_of = RZP
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 }
