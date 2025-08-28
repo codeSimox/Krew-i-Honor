@@ -1,0 +1,18 @@
+state = {
+	id = 442
+	name = "STATE_442"
+	provinces = { 197 981 1083 1686 2295 2481 2626 3119 4591 4843 4998 5014 5584 6771 6851 6861 6877 6889 }
+	buildings_max_level_factor=1.000
+		manpower = 78213
+		state_category = rural
+	history = {
+		owner = PAJ
+		add_core_of = PAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 2295 3}
+		victory_points = { 2626 5}
+	 }
+	
+}
