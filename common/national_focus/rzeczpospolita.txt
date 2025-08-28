@@ -184,4 +184,16 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = RZP_sarmatanatronie
+        cost = 5
+        icon = GFX_focus_POL_nationalist_education
+        x = 20
+        y = 0
+        
+        completion_reward = {
+            add_country_leader_trait = RZP_jakubiak_sarmata
+        }
+    }
 }
+
