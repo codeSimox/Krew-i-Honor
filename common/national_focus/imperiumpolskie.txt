@@ -142,6 +142,7 @@ focus_tree = {
 
     focus = {
         id = IPL_liczba_poslow
+        icon = GFX_focus_AFG_parliamentary_democracy
         cost = 7
         relative_position_id = IPL_trzy_siodemki
         x = 0
@@ -161,6 +162,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_stypendium_demograficzne
+        icon = GFX_focus_peopleup
         cost = 7
         relative_position_id = IPL_liczba_poslow
         x = 0
@@ -176,6 +178,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_ochrona_ziemi
+        icon = GFX_focus_generic_land_reclamation
         cost = 7
         relative_position_id = IPL_stypendium_demograficzne
         x = 0
@@ -221,6 +224,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_zasady_konkurencji
+        icon = GFX_focus_generic_currency_reforms
         cost = 7
         relative_position_id = IPL_ochrona_ziemi
         x = 0
@@ -253,6 +257,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_edukacja_mlodziezy
+        icon = GFX_focus_generic_university_1
         cost = 7
         relative_position_id = IPL_polska_produkcja
         x = 0
@@ -268,6 +273,7 @@ focus_tree = {
     }
     focus = {
         id = IPL_pokoj_i_bezpieczenstwo
+        icon = GFX_focus_generic_home_defense
         cost = 7
         relative_position_id = IPL_edukacja_mlodziezy
         x = 0

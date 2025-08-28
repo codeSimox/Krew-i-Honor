@@ -23,4 +23,8 @@ spriteTypes = {
         name = GFX_focus_siedem
         texturefile = gfx/interface/goals/siedem.png   
     }
+    spriteType = {
+        name = GFX_focus_peopleup
+        texturefile = gfx/interface/goals/peopleup.png   
+    }
 }
