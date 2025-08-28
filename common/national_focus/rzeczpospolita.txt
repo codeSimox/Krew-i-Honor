@@ -49,6 +49,80 @@ focus_tree = {
         }
     }
     focus = {
+        id = RZP_dotacjenarzecznauki
+        cost = 7
+        icon = GFX_focus_generic_university_3
+        relative_position_id = RZP_gospodarkapiwna
+        x = 0
+        y = 1
+        prerequisite = {
+        focus =  RZP_gospodarkapiwna 
+        }
+        completion_reward = {
+            add_research_slot = 1
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = electronics
+            }
+        }
+    }
+    focus = {
+        id = RZP_reformaszkolnictwa
+        cost = 7
+        icon = GFX_focus_generic_university_3
+        relative_position_id = RZP_gospodarkapiwna
+        x = 0
+        y = 1
+        prerequisite = {
+        focus =  RZP_gospodarkapiwna 
+        }
+        available = {
+            RZP = {
+                num_of_factories > 19
+            }
+        }
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+    focus = {
+        id = RZP_dotacjenarzecznauki
+        cost = 7
+        icon = GFX_focus_generic_university_1
+        relative_position_id = RZP_reformaszkolnictwa
+        x = 0
+        y = 1
+        prerequisite = {
+        focus =  RZP_reformaszkolnictwa 
+        }
+        available = {
+            RZP = {
+                num_of_factories > 39
+            }
+        }
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+    focus = {
+        id = RZP_wpiwietkwiwiedza
+        cost = 7
+        icon = GFX_focus_generic_university_2
+        relative_position_id = RZP_dotacjenarzecznauki
+        x = 0
+        y = 2
+        prerequisite = {
+        focus =  RZP_dotacjenarzecznauki 
+        }
+        available = {
+            is_free_or_subject_of_root = yes
+        }
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+    focus = {
         id = RZP_browarzywiecki
         cost = 5
         icon = GFX_goal_generic_construct_civ_factory
@@ -184,6 +258,7 @@ focus_tree = {
             }
         }
     }
+    #polityka
     focus = {
         id = RZP_sarmatanatronie
         cost = 5
@@ -193,6 +268,85 @@ focus_tree = {
         
         completion_reward = {
             add_country_leader_trait = RZP_jakubiak_sarmata
+        }
+    }
+    focus = {
+        id = RZP_zwrotkuprzyszlosci
+        icon = GFX_focus_rom_royal_dictatorship
+        cost = 10
+        relative_position_id =RZP_sarmatanatronie
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = RZP_sarmatanatronie
+        }
+        completion_reward = {
+            add_political_power = 75
+            country_event = rzp_event.3
+         }
+    }
+    #wolność
+    focus = {
+        id = RZP_suwerennarp
+        icon = GFX_focus_POL_belarus_army
+        cost = 1
+        relative_position_id = RZP_zwrotkuprzyszlosci
+        x = -2
+        y = 1
+        available = {
+            always = no
+        }
+        mutually_exclusive = {
+            focus = RZP_wesprzyjmypis
+        }
+        prerequisite = {
+            focus = RZP_zwrotkuprzyszlosci
+        }
+        completion_reward = { 
+            
+        }
+    }
+    focus = {
+        id = RZP_przygotowanierewolty
+        icon = GFX_focus_generic_monarchist_sentiment
+        cost = 5
+        relative_position_id = RZP_suwerennarp
+        prerequisite = {
+            focus = RZP_suwerennarp
+        }
+        x = -1
+        y = 1
+        completion_reward = {
+            add_dynamic_modifier = {
+                modifier = RZP_pdr
+            }
+            add_to_variable = {
+                pdrcgf = -0.1
+            }
+            add_to_variable = {
+                pdraff = 0.1
+            }
+        }
+    }
+    #podchujaszczyzm
+    focus = {
+        id = RZP_wesprzyjmypis
+        icon = GFX_focus_generic_welfare
+        cost = 1
+        relative_position_id = RZP_zwrotkuprzyszlosci
+        x = 2
+        y = 1
+        available = {
+            always = no
+        }
+        mutually_exclusive = {
+            focus = RZP_suwerennarp
+        }
+        prerequisite = {
+            focus = RZP_zwrotkuprzyszlosci
+        }
+        completion_reward = { 
+            
         }
     }
 }

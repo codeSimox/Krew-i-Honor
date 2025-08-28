@@ -15,9 +15,6 @@ focus_tree = {
         cost = 5
         x = 10
         y = 0
-        available = {
-            has_country_flag = PAJ_koniec_drzewka_wspoldzielonego
-        }
         completion_reward = {
             add_political_power = 50
         }
@@ -28,6 +25,9 @@ focus_tree = {
         relative_position_id = PAJ_Zrobic_jeden_krok_do_przodu
         x = -3
         y = 1
+        available = {
+            always = no
+        }
         prerequisite = {
             focus = PAJ_Zrobic_jeden_krok_do_przodu
         }
@@ -46,6 +46,8 @@ focus_tree = {
         relative_position_id = PAJ_Niech_powroci_stare_prawo
         x = 0
         y = 1
+        available = {
+            always = no}
         prerequisite = {
             focus = PAJ_Niech_powroci_stare_prawo
         }
@@ -63,6 +65,8 @@ focus_tree = {
         relative_position_id = PAJ_rozkwit_ideii
         x = -1
         y = 1
+        available = {
+            always = no}
         prerequisite = {
             focus = PAJ_rozkwit_ideii
         }

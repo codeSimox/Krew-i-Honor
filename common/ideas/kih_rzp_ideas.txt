@@ -8,5 +8,21 @@ ideas = {
 				ground_attack_factor = 0.05
 			}
 		}
+		RZP_idea_wiernysojusznik = {
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = 0.1
+				supply_consumption_factor = -0.15
+				command_power_gain_mult =  0.2
+			}
+		}
+		RZP_idea_frontwolnosci = {
+			modifier = {
+				recruitable_population = 0.02
+				autonomy_gain = 0.5
+				resistance_damage_to_garrison_on_our_occupied_states = 0.3
+			}
+		}
+		
 	}
 }
