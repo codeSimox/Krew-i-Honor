@@ -69,4 +69,20 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = KAM_przem3
+        icon = GFX_focus_generic_supply_line
+        cost = 5
+        relative_position_id = KAM_przem2
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_przem2    
+        }
+
+        completion_reward = {
+            
+        }
+    }
 }

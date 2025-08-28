@@ -5,7 +5,7 @@ state={
 		764 1028 1928 3065 4429 5116 9255 9281 9310 9312 9332 9357 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=43895
         state_category = city
 
 	history = {
@@ -19,11 +19,10 @@ state={
 			}
 		}
 		victory_points = {
-			9310 15
+			9310 35
 		}
 	}
 	resources = {
-		steel = 8
-		tungsten = 32
+		steel = 4
 	}
 }

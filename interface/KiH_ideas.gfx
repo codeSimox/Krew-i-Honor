@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_RZP_idea_znacjonalizowanebrowary
+		texturefile = gfx/interface/ideas/piwo.dds
+	}
+}

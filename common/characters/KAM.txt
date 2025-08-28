@@ -10,6 +10,7 @@ characters = {
 			ideology = junta
 			traits = {
 				KAM_jaszczur_aktor
+				KAM_dyktator_general
 			}
 			desc = KAM_jaszczur_leader_desc
 		}
