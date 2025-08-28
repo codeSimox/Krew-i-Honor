@@ -132,6 +132,13 @@ focus_tree = {
         x = -2
         y = 1
 
+        available = {
+            436 = {
+                industrial_complex > 0
+                infrastructure > 2
+            }
+        }
+
         prerequisite = {
             focus = KAM_przem4   
         }
@@ -139,7 +146,7 @@ focus_tree = {
         completion_reward = {
             436 = {
                 set_state_category = town
-                add_manpower = 10000
+                add_manpower = 25000
             }
         }
     }
@@ -198,13 +205,82 @@ focus_tree = {
         id = KAM_armia_1
         icon = GFX_focus_generic_army_doctrines_2
         cost = 5
-        x = x
-        y = x
+        x = 30
+        y = 0
         completion_reward = {
             add_doctrine_cost_reduction = {
-                cost_reduction = x
-                name = x
+                uses = 1
+                cost_reduction = 0.25
+                category = land_doctrine
             }
+            army_experience = 35
+        }
+    }
+
+#ARMIA - MASS ASSAULT#
+
+    focus = {
+        id = KAM_armia_l_1
+        icon = GFX_focus_generic_home_defense
+        cost = 10
+        relative_position_id = KAM_armia_1
+        x = -1
+        y = 1
+
+        mutually_exclusive = {
+            focus = KAM_armia_r_1    
+        }
+
+        prerequisite = {
+            focus = KAM_armia_1
+        }
+
+        completion_reward = {
+            add_doctrine_cost_reduction = {
+                uses = 2
+                cost_reduction = 0.33
+                category = cat_mass_assault
+            }
+        }
+    }
+
+#ARMIA - GRAND BATTLEPLAN#
+
+    focus = {
+        id = KAM_armia_r_1
+        icon = GFX_focus_generic_anti_tank_guns
+        cost = 10
+        relative_position_id = KAM_armia_1
+        x = 1
+        y = 1
+
+        mutually_exclusive = {
+            focus = KAM_armia_l_1
+        }
+
+        prerequisite = {
+            focus = KAM_armia_1
+        }
+
+        completion_reward = {
+            add_doctrine_cost_reduction = {
+                uses = 2
+                cost_reduction = 0.33
+                category = cat_grand_battle_plan
+            }
+        }
+    }
+
+#POLITYCZNE - JAKUBIAK#
+
+    focus = {
+        id = KAM_focus_delegacja
+        icon = GFX_focus_generic_diplomatic_treaty
+        cost = 5
+        x = 25
+        y = 0
+        completion_reward = {
+            
         }
     }
 }
