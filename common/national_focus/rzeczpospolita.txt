@@ -14,7 +14,7 @@ focus_tree = {
         id = RZP_gospodarkapiwna
         icon = GFX_focus_gospiw
         cost = 8
-        x = 10
+        x = 6
         y = 0
        
         completion_reward = {
@@ -218,7 +218,7 @@ focus_tree = {
     }
     focus = {
         id = RZP_browarnamyslow
-        cost = 5
+        cost = 7
         icon = GFX_goal_generic_construct_mil_factory
         relative_position_id = RZP_obnizkaakcyzy
         x = 2
@@ -258,12 +258,12 @@ focus_tree = {
             }
         }
     }
-    #polityka
+    #polityka==============================================================================================
     focus = {
         id = RZP_sarmatanatronie
         cost = 5
         icon = GFX_focus_POL_nationalist_education
-        x = 20
+        x = 19
         y = 0
         
         completion_reward = {
@@ -291,7 +291,7 @@ focus_tree = {
         icon = GFX_focus_POL_belarus_army
         cost = 1
         relative_position_id = RZP_zwrotkuprzyszlosci
-        x = -2
+        x = -4
         y = 1
         available = {
             always = no
@@ -328,13 +328,97 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = RZP_schedasobieskiego
+        icon = GFX_focus_generic_horse_studs
+        cost = 8
+        relative_position_id = RZP_suwerennarp
+        prerequisite = {
+            focus = RZP_suwerennarp
+        }
+        x = -3
+        y = 1
+        completion_reward = {
+            add_country_leader_trait = RZP_scheda_sobieskiego
+        }
+    }
+    focus = {
+        id = RZP_zapotrzebowanieamunicji
+        icon = GFX_focus_generic_reorient_production
+        cost = 5
+        relative_position_id = RZP_suwerennarp
+        prerequisite = {
+            focus = RZP_suwerennarp
+        }
+        x = 1
+        y = 1
+        completion_reward = {
+            303 = {
+                add_building_construction = {
+                type = arms_factory
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 1
+            }
+            305 = {
+                add_building_construction = {
+                type = arms_factory
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 1
+            }
+        }
+    }
+    focus = {
+        id = RZP_rekrutacjaprzedbuntem
+        icon = GFX_focus_generic_limited_social_mobilization
+        cost = 6
+        relative_position_id = RZP_suwerennarp
+        prerequisite = {
+            focus = RZP_suwerennarp
+        }
+        x = 3
+        y = 1
+        available = {
+            NOT = {
+                has_completed_focus = RZP_powstannarodzie
+            }
+        }
+        completion_reward = {
+            add_ideas = partial_economic_mobilisation
+            add_ideas = limited_conscription
+            }
+        }
+    
+
+    focus = {
+        id = RZP_powstannarodzie
+        icon = GFX_focus_POL_ban_nazi_party
+        cost = 15
+        relative_position_id = RZP_zapotrzebowanieamunicji
+        prerequisite = {
+            focus = RZP_zapotrzebowanieamunicji
+        }
+        prerequisite = {
+            focus = RZP_schedasobieskiego
+        }
+        prerequisite = {
+            focus = RZP_przygotowanierewolty
+        }
+        x = -2
+        y = 1
+        
+        completion_reward = {
+            
+        }
+    }
     #podchujaszczyzm
     focus = {
         id = RZP_wesprzyjmypis
         icon = GFX_focus_generic_welfare
         cost = 1
         relative_position_id = RZP_zwrotkuprzyszlosci
-        x = 2
+        x = 4
         y = 1
         available = {
             always = no
@@ -350,4 +434,4 @@ focus_tree = {
         }
     }
 }
-
+}

@@ -18,7 +18,7 @@ ideas = {
 		}
 		RZP_idea_frontwolnosci = {
 			modifier = {
-				recruitable_population = 0.02
+				conscription = 0.02
 				autonomy_gain = 0.5
 				resistance_damage_to_garrison_on_our_occupied_states = 0.3
 			}
