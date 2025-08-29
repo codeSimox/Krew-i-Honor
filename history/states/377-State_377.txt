@@ -13,9 +13,22 @@ state={
 		add_core_of = SZP
 		victory_points = { 762 40 }
 		buildings = {
+			infrastructure = 5
 			dockyard = 2
 			industrial_complex = 1
 			arms_factory = 2
+			1587 = {
+				naval_base = 2
+			}	 
+			5258 = naval_base = 8
+		}
+		add_resource = {
+			type = chromium
+			amount = 8
+		}
+		add_resource = {
+			type = steel
+			amount = 15
 		}
 	}
 }

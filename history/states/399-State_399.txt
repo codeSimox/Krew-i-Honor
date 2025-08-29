@@ -5,11 +5,15 @@ state={
 		291 427 593 677 1200 2231 2372 3282 4279 4330 4813 5961 9613 9618
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=47814
         state_category = town
 
 	history = {
 		owner = SZP
 		add_core_of = SZP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 }

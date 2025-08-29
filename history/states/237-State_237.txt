@@ -5,8 +5,8 @@ state={
 		162 539 574 1229 1538 1636 1880 1991 2287 2638 2761 2876 2990 3378 3579 3798 4080 4687 5020 5395 5613 5620 5824 6148 6399 6608 8335 8344 8345 8404 8415 8514 8538 8562 8563 8581 
 	}
 	buildings_max_level_factor=1.000
-        manpower=42861
-        state_category = rural
+        manpower=92861
+        state_category = city
 
 	history = {
 		owner = RZP
@@ -16,6 +16,7 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = { 6148 5 }
+		victory_points = { 539 20 }
 	}
 	resources = {
 		steel = 4

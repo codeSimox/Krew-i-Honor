@@ -5,11 +5,18 @@ state={
 		167 235 488 748 772 1326 1651 1825 2026 2068 3145 3452 3598 3610 3883 4421 4491 4781 6093 6095 9582 9583 9586 9599 9601 9606 9617 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=13842
+        state_category = pastoral
 
 	history = {
 		owner = SZP
 		add_core_of = SZP
+		buildings = {
+			infrastructure = 1
+		}
+		add_resource = {
+			type = rubber
+			amount = 12
+		}
 	}
 }
