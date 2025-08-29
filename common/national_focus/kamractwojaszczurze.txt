@@ -237,7 +237,7 @@ focus_tree = {
 #ARMIA - MASS ASSAULT#
 
     focus = {
-        id = KAM_armia_l_1
+        id = KAM_focus_armia_l_1
         icon = GFX_focus_generic_home_defense
         cost = 10
         relative_position_id = KAM_armia_1
@@ -245,7 +245,7 @@ focus_tree = {
         y = 1
 
         mutually_exclusive = {
-            focus = KAM_armia_r_1    
+            focus = KAM_focus_armia_r_1    
         }
 
         prerequisite = {
@@ -264,7 +264,7 @@ focus_tree = {
 #ARMIA - GRAND BATTLEPLAN#
 
     focus = {
-        id = KAM_armia_r_1
+        id = KAM_focus_armia_r_1
         icon = GFX_focus_generic_anti_tank_guns
         cost = 10
         relative_position_id = KAM_armia_1
@@ -272,7 +272,7 @@ focus_tree = {
         y = 1
 
         mutually_exclusive = {
-            focus = KAM_armia_l_1
+            focus = KAM_focus_armia_l_1
         }
 
         prerequisite = {
@@ -287,6 +287,122 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = KAM_focus_armia_r_2
+        icon = GFX_goal_generic_army_doctrines
+        cost = 5
+        relative_position_id = KAM_focus_armia_r_1
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_1
+        }
+
+        completion_reward = {
+            army_experience = 25
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_3
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_2
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_2
+        }
+
+        completion_reward = {
+            add_doctrine_cost_reduction = {
+                uses = 1
+                cost_reduction = 0.5
+                category = cat_grand_battle_plan
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_4
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_2
+        x = 2
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_2
+        }
+
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = infantry_weapons
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_5
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_4
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_4
+        }
+
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 0.33
+                uses = 3
+                category = artillery
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_6
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_3
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_3
+        }
+
+        completion_reward = {
+            add_ideas = KAM_idea_plany_wojenne
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_7
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_6
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_6
+        }
+        prerequisite = {
+            focus = KAM_focus_armia_r_5
+        }
+
+        completion_reward = {
+            437 = {
+                add_manpower = 25000
+                create_unit = { division = "name = \"1. Specjalna Kamracka Brygada Kawalerii\" division_template = \"Kamracka Brygada Kawalerii\" start_experience_factor = 1" owner = ROOT }
+                create_unit = { division = "name = \"2. Specjalna Kamracka Brygada Kawalerii\" division_template = \"Kamracka Brygada Kawalerii\" start_experience_factor = 1" owner = ROOT }
+            }
+        }
+    }
+
 
 #POLITYCZNE - JAKUBIAK#
 
@@ -479,11 +595,16 @@ focus_tree = {
         y = 1
 
         available = {
-            any_owned_state = {
-                controller = {
-                    NOT = {
-                        tag = KAM
+            AND = {
+                any_owned_state = {
+                    controller = {
+                        NOT = {
+                            tag = KAM
+                        }
                     }
+                }
+                NOT = {
+                    has_completed_focus = KAM_focus_przelamanie
                 }
             }
         }
@@ -514,16 +635,21 @@ focus_tree = {
         y = 1
 
         available = {
-            OR = {
-                290 = {
-                    controller = {
-                        tag = KAM
+            AND = {
+                OR = {
+                    290 = {
+                        controller = {
+                            tag = KAM
+                        }
+                    }
+                    440 = {
+                        controller = {
+                            tag = KAM
+                        }
                     }
                 }
-                440 = {
-                    controller = {
-                        tag = KAM
-                    }
+                NOT = {
+                    has_completed_focus = KAM_focus_wielka_kleska
                 }
             }
         }
