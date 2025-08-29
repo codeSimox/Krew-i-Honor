@@ -24,3 +24,19 @@ RZP_pdr = {
 	consumer_goods_factor = pdrcgf
 	production_speed_arms_factory_factor = pdraff
 }
+RZP_wr = {
+	icon = GFX_idea_
+	enable = {
+		always = yes
+	}
+
+	industrial_capacity_factory = wricf
+	monthly_population = wrmp
+	research_speed_factor = wrrsf
+	production_speed_buildings_factor = wrpsbf
+	local_resources = wrlr
+	local_factories = wrlf
+	resistance_growth = wrrg
+	max_surrender_limit_offset = wrmsl
+	monthly_population
+}

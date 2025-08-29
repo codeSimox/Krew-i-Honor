@@ -153,9 +153,5 @@ shared_focus = {
 
 	completion_reward = {
 		remove_ideas = generalna_ideja_4
-		if = {
-			limit = { tag = PAJ }
-			set_country_flag = PAJ_koniec_drzewka_wspoldzielonego
-		}
 	}
 }

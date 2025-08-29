@@ -412,6 +412,121 @@ focus_tree = {
             
         }
     }
+    #drzewko po rewolcie lewe
+    focus = {
+        id = RZP_reformywolnychrepublikan
+        icon = GFX_focus_generic_the_giant_wakes
+        cost = 9
+        relative_position_id = RZP_powstannarodzie
+        prerequisite = {
+            focus = RZP_powstannarodzie
+        }
+        x = -3
+        y = 1
+        completion_reward = { 
+            add_dynamic_modifier = {
+                modifier = RZP_wr
+            }
+            add_to_variable = {
+                wricf = 0.1
+            }
+        }
+    }
+    focus = {
+        id = RZP_bykowe
+        icon = GFX_focus_generic_field_hostpital
+        cost = 4
+        relative_position_id = RZP_reformywolnychrepublikan
+        prerequisite = {
+            focus = RZP_reformywolnychrepublikan
+        }
+        x = -1
+        y = 1
+        completion_reward = { 
+            add_to_variable = {
+                wrmp = 0.3
+        }
+    }
+}
+focus = {
+        id = RZP_cyfryzacja
+        icon = GFX_focus_computer
+        cost = 5
+        relative_position_id = RZP_reformywolnychrepublikan
+        prerequisite = {
+            focus = RZP_reformywolnychrepublikan
+        }
+        x = 1
+        y = 1
+        completion_reward = { 
+            add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = electronics
+            }
+            add_to_variable = {
+                wrrsf = 0.1
+            }
+}
+}
+focus = {
+        id = RZP_wolnoscgospodarcza
+        icon = GFX_focus_generic_economic_recovery
+        cost = 6
+        relative_position_id = RZP_bykowe
+        prerequisite = {
+            focus = RZP_cyfryzacja
+            focus = RZP_bykowe
+        }
+        x = 0
+        y = 1
+        completion_reward = { 
+            add_ideas = free_trade
+            add_to_variable = {
+                wrpsbf = 0.1
+        }
+        add_to_variable = {
+            wrlf = 0.15
+        }
+    }
+}
+focus = {
+        id = RZP_politykaprosumecka
+        icon = GFX_focus_generic_public_works
+        cost = 3
+        relative_position_id = RZP_cyfryzacja
+        prerequisite = {
+            focus = RZP_cyfryzacja
+            focus = RZP_bykowe
+        }
+        x = 0
+        y = 1
+        completion_reward = { 
+            add_to_variable = {
+                wrlr = 0.2
+        }
+    }
+}
+focus = {
+        id = RZP_reformasadownicz
+        icon = GFX_goal_generic_neutrality_focus
+        cost = 3
+        relative_position_id = RZP_politykaprosumecka
+        prerequisite = {
+            focus = RZP_politykaprosumecka
+            focus = RZP_wolnoscgospodarcza
+        }
+        x = -1
+        y = 1
+        completion_reward = { 
+            add_to_variable = {
+                wrrg = -0.1
+        }
+            add_to_variable = {
+            wrmsl = 0.1
+        }
+    }
+}
     #podchujaszczyzm
     focus = {
         id = RZP_wesprzyjmypis
@@ -433,5 +548,4 @@ focus_tree = {
             
         }
     }
-}
 }
