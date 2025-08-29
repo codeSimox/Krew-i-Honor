@@ -5,11 +5,17 @@ state={
 		763 1597 1644 2497 3647 5258 9528 9543 
 	}
 	buildings_max_level_factor=1.000
-        manpower=300000
-        state_category = town
+        manpower=1273000
+        state_category = metropolis
 
 	history = {
 		owner = SZP
 		add_core_of = SZP
+		victory_points = { 762 40 }
+		buildings = {
+			dockyard = 2
+			industrial_complex = 1
+			arms_factory = 2
+		}
 	}
 }

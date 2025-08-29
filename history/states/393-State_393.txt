@@ -2,14 +2,21 @@ state={
 	id=393
 	name="STATE_393"
 	provinces={
-		36 1304 1498 1701 2084 2628 2701 2735 2871 3381 3477 3902 4040 6127 9569 9592 9594 9605 
+		36 1304 1498 1701 2084 2628 2701 2735 2871 2982 3381 3477 3902 4040 6127 9569 9592 9593 9594 9605 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=284137
+        state_category = city
 
 	history = {
 		owner = SZP
 		add_core_of = SZP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = { 9605 25 }
+		victory_points = { 1498 5 }
 	}
 }
