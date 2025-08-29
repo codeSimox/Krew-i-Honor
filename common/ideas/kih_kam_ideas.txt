@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		KAM_idea_przegrana_jakubiak = {
+			modifier = {
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.25
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+		KAM_idea_ped_natarcia = {
+			modifier = {
+				army_attack_factor = 0.1
+				army_speed_factor = 0.25
+			}
+		}
+		KAM_idea_plany_wojenne = {
+			modifier = {
+				max_planning_factor = 0.15
+				planning_speed = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+KAM_INF_01 = { # DIVISIONS_NAME_GROUP, set in your units folder
+	name = "Piesze Oddziały Kamratów" # The name you want for your name list, can either be a string or in quotes.
+	for_countries = { KAM } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d. Pieszy Oddział Kamratów" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	ordered = {
+		7 = { "%d. Pieszy Oddział Kamratów" } # The first division.
+		10 = { "%d. Pieszy Oddział Kamratów " } # Numbers must always start from 1 and go up
+		12 = { "%d. Pieszy Oddział Kamratów" } # The numbers do not need to be sequential
+	}
+}
+KAM_INF_02 = { # DIVISIONS_NAME_GROUP, set in your units folder
+	name = "Dywizje Piechoty" # The name you want for your name list, can either be a string or in quotes.
+	for_countries = { KAM } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "infantry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d. Dywizja Piechoty Kamratów" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	ordered = {
+		1 = { "%d. Dywizja Piechoty - Jaszczur" } # The first division.
+		2 = { "%d. Dywizja Piechoty - Braci Kamraci" } # Numbers must always start from 1 and go up
+		3 = { "%d. Dywizja Piechoty - Ludwiczek" } # The numbers do not need to be sequential
+	}
+}
+KAM_CAV_01 = { # DIVISIONS_NAME_GROUP, set in your units folder
+	name = "Brygady Kawalerii" # The name you want for your name list, can either be a string or in quotes.
+	for_countries = { KAM } # Sets what countries can use this name list, change NEP to your countries tag
+	can_use = { always = yes } # A country scope trigger that can lock or unlock a division name group given certain triggers
+	division_types = { "cavalry" } # Sets what types of units can use this name list, replace mountaineers with whatever type of unit you are using
+	fallback_name = "%d. Kamracka Brygada Kawalerii" # This will be used if you run out of numbered divisions. Always use either %d for decimal numbers or %s for Roman numerals but you can change the rest
+	ordered = {
+		6 = { "%d. Kamracka Brygada Kawalerii - Kircholm" } # The first division.
+		8 = { "%d. Kamracka Brygada Kawalerii - Wiedeń" } # Numbers must always start from 1 and go up
+		9 = { "%d. Kamracka Brygada Kawalerii - Husarze" } # The numbers do not need to be sequential
+	}
+}

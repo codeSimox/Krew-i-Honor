@@ -102,7 +102,7 @@ bookmarks = {
 				generalna_ideja
 			}
 			focuses = {
-			
+				
 			}
 		}
 		"KAM"={
@@ -111,9 +111,13 @@ bookmarks = {
 			ideology = autorytaryzm
 			ideas = {
 				generalna_ideja
+				KAM_idea_ped_natarcia
+				KAM_idea_przegrana_jakubiak
 			}
 			focuses = {
-			
+				KAM_przyjazn_z_piwokrata
+				KAM_smierc_wrogom_ojczyzny
+				KAM_rozwojladka
 			}
 		}
 		"SOD"={

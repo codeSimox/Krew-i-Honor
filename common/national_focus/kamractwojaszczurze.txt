@@ -198,6 +198,23 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = KAM_focus_reaserch1
+        icon = GFX_focus_research
+        cost = 10
+        relative_position_id = KAM_przem6
+        x = -3
+        y = 1
+
+        prerequisite = {
+            focus = KAM_przem6
+            focus = np_removing_focus_5
+        }
+
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
 
 #DRZEWKO ARMII#
 
@@ -205,7 +222,7 @@ focus_tree = {
         id = KAM_armia_1
         icon = GFX_focus_generic_army_doctrines_2
         cost = 5
-        x = 30
+        x = 40
         y = 0
         completion_reward = {
             add_doctrine_cost_reduction = {
@@ -220,7 +237,7 @@ focus_tree = {
 #ARMIA - MASS ASSAULT#
 
     focus = {
-        id = KAM_armia_l_1
+        id = KAM_focus_armia_l_1
         icon = GFX_focus_generic_home_defense
         cost = 10
         relative_position_id = KAM_armia_1
@@ -228,7 +245,7 @@ focus_tree = {
         y = 1
 
         mutually_exclusive = {
-            focus = KAM_armia_r_1    
+            focus = KAM_focus_armia_r_1    
         }
 
         prerequisite = {
@@ -247,7 +264,7 @@ focus_tree = {
 #ARMIA - GRAND BATTLEPLAN#
 
     focus = {
-        id = KAM_armia_r_1
+        id = KAM_focus_armia_r_1
         icon = GFX_focus_generic_anti_tank_guns
         cost = 10
         relative_position_id = KAM_armia_1
@@ -255,7 +272,7 @@ focus_tree = {
         y = 1
 
         mutually_exclusive = {
-            focus = KAM_armia_l_1
+            focus = KAM_focus_armia_l_1
         }
 
         prerequisite = {
@@ -270,6 +287,122 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = KAM_focus_armia_r_2
+        icon = GFX_goal_generic_army_doctrines
+        cost = 5
+        relative_position_id = KAM_focus_armia_r_1
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_1
+        }
+
+        completion_reward = {
+            army_experience = 25
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_3
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_2
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_2
+        }
+
+        completion_reward = {
+            add_doctrine_cost_reduction = {
+                uses = 1
+                cost_reduction = 0.5
+                category = cat_grand_battle_plan
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_4
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_2
+        x = 2
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_2
+        }
+
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = infantry_weapons
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_5
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_4
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_4
+        }
+
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 0.33
+                uses = 3
+                category = artillery
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_6
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_3
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_3
+        }
+
+        completion_reward = {
+            add_ideas = KAM_idea_plany_wojenne
+        }
+    }
+    focus = {
+        id = KAM_focus_armia_r_7
+        icon = GFX_goal_generic_army_doctrines
+        cost = 10
+        relative_position_id = KAM_focus_armia_r_6
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = KAM_focus_armia_r_6
+        }
+        prerequisite = {
+            focus = KAM_focus_armia_r_5
+        }
+
+        completion_reward = {
+            437 = {
+                add_manpower = 25000
+                create_unit = { division = "name = \"1. Specjalna Kamracka Brygada Kawalerii\" division_template = \"Kamracka Brygada Kawalerii\" start_experience_factor = 1" owner = ROOT }
+                create_unit = { division = "name = \"2. Specjalna Kamracka Brygada Kawalerii\" division_template = \"Kamracka Brygada Kawalerii\" start_experience_factor = 1" owner = ROOT }
+            }
+        }
+    }
+
 
 #POLITYCZNE - JAKUBIAK#
 
@@ -277,7 +410,7 @@ focus_tree = {
         id = KAM_focus_delegacja
         icon = GFX_focus_generic_diplomatic_treaty
         cost = 5
-        x = 20
+        x = 30
         y = 0
         completion_reward = {
             country_event = kam_event.1
@@ -419,7 +552,7 @@ focus_tree = {
         icon = GFX_idea_generic_war_preparation
         cost = 10
         relative_position_id = KAM_focus_ostateczne_rozwiazanie
-        x = -1
+        x = -3
         y = 1
 
         prerequisite = {
@@ -451,6 +584,252 @@ focus_tree = {
                     type = annex_everything
                 }
             }
+        }
+    }
+    focus = {
+        id = KAM_focus_wielka_kleska
+        icon = GFX_idea_generic_war_preparation
+        cost = 1
+        relative_position_id = KAM_focus_a_wiec_wojna
+        x = 2
+        y = 1
+
+        available = {
+            AND = {
+                any_owned_state = {
+                    controller = {
+                        NOT = {
+                            tag = KAM
+                        }
+                    }
+                }
+                NOT = {
+                    has_completed_focus = KAM_focus_przelamanie
+                }
+            }
+        }
+
+        prerequisite = {
+            focus = KAM_focus_a_wiec_wojna
+        }
+
+        completion_reward = {
+            white_peace = {
+                tag = RZP
+                message = KAM_przegrana_z_jakubiakiem
+            }
+            add_war_support = -0.1
+            add_stability = -0.1
+            add_timed_idea = {
+                idea = KAM_idea_przegrana_jakubiak
+                months = 9
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_przelamanie
+        icon = GFX_idea_generic_war_preparation
+        cost = 1
+        relative_position_id = KAM_focus_a_wiec_wojna
+        x = -1
+        y = 1
+
+        available = {
+            AND = {
+                OR = {
+                    290 = {
+                        controller = {
+                            tag = KAM
+                        }
+                    }
+                    440 = {
+                        controller = {
+                            tag = KAM
+                        }
+                    }
+                }
+                NOT = {
+                    has_completed_focus = KAM_focus_wielka_kleska
+                }
+            }
+        }
+
+        prerequisite = {
+            focus = KAM_focus_a_wiec_wojna
+        }
+
+        completion_reward = {
+            add_war_support = 0.1
+            add_timed_idea = {
+                idea = KAM_idea_ped_natarcia
+                months = 3
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_totalerkrieg
+        icon = GFX_focus_generic_total_war
+        cost = 4
+        relative_position_id = KAM_focus_przelamanie
+        x = 1
+        y = 1
+
+        bypass = {
+            KAM = {
+                has_war = no
+            }
+        }
+
+        mutually_exclusive = {
+            focus = KAM_focus_koniec_wojny
+        }
+
+        prerequisite = {
+            focus = KAM_focus_przelamanie
+        }
+
+        completion_reward = {
+            add_war_support = 0.05
+            remove_dynamic_modifier = {
+                modifier = KAM_przyg_mod
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_koniec_wojny
+        icon = GFX_focus_generic_total_war
+        cost = 4
+        relative_position_id = KAM_focus_przelamanie
+        x = -1
+        y = 1
+
+        bypass = {
+            KAM = {
+                has_war = no
+            }
+        }
+
+        mutually_exclusive = {
+            focus = KAM_focus_totalerkrieg
+        }
+
+        prerequisite = {
+            focus = KAM_focus_przelamanie
+        }
+
+        completion_reward = {
+            add_stability = 0.05
+            white_peace = {
+                tag = RZP
+                message = KAM_wygrana_z_jakubiakiem
+            }
+            white_peace = RPL
+            transfer_state = 290
+            transfer_state = 440
+            remove_dynamic_modifier = {
+                modifier = KAM_przyg_mod
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_integracja_nowych_ziem
+        icon = GFX_focus_generic_farmland
+        cost = 10
+        relative_position_id = KAM_focus_totalerkrieg
+        x = -1
+        y = 1
+
+        available = {
+            AND = {
+                290 = {
+                    is_owned_and_controlled_by = KAM
+                }
+                440 = {
+                    is_owned_and_controlled_by = KAM
+                }
+            }
+        }
+
+        prerequisite = {
+            focus = KAM_focus_totalerkrieg
+            focus = KAM_focus_koniec_wojny
+        }
+
+        completion_reward = {
+            290 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                }
+            }
+            440 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                }
+            }
+            build_railway = {
+                path = { 963 9205 1503 9133 4283 5796 1269 }
+                level = 3
+            }
+            build_railway = {
+                path = { 5469 1480 510 3045 2850 1218 5563 6210 1055 }
+                level = 2
+            }
+        }
+    }
+    focus = {
+        id = KAM_focus_nowi_lepsi_ludzie
+        icon = GFX_focus_generic_farmland
+        cost = 15
+        relative_position_id = KAM_focus_integracja_nowych_ziem
+        x = 0
+        y = 1
+
+        available = {
+            AND = {
+                290 = {
+                    is_owned_and_controlled_by = KAM
+                }
+                440 = {
+                    is_owned_and_controlled_by = KAM
+                }
+            }
+        }
+
+        prerequisite = {
+            focus = KAM_focus_integracja_nowych_ziem
+        }
+
+        completion_reward = {
+            290 = {
+                add_core_of = KAM
+                set_state_name = "Obwód Żywiecki"
+                add_manpower = 20000
+            }
+            440 = {
+                add_core_of = KAM
+                set_state_name = "Obwód Grunwaldzki"
+                set_state_category = large_town
+                add_manpower = 35000
+            }
+            set_province_name = {
+                id = 1269
+                name = KAM_Grodno
+            }
+        }
+    }
+
+#POLITYCZNE GŁÓWNE#
+
+    focus = {
+        id = KAM_focus_sytuacja_zewnetrzna
+        icon = GFX_idea_HUN_treaty_of_triannon
+        cost = 5
+        x = 17
+        y = 0
+        completion_reward = {
+            add_political_power = 50
         }
     }
 }

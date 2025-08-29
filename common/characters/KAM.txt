@@ -76,7 +76,42 @@ characters = {
 				spokojny_towarzysz
 			}
 			available = {
-				has_ideology_group = autorytaryzm
+				KAM = {
+					has_government = autorytaryzm
+				}
+			}
+		}
+	}
+	KAM_poreba={
+		name = KAM_poreba
+		portraits = {
+			army = {
+				small = GFX_portrait_KAM_poreba_general_s
+				large = GFX_portrait_KAM_poreba_general_l
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_expert
+				fortress_buster
+				urban_assault_specialist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = KAM_poreba_advisor
+			traits = {
+				dyplomata_zwiadowca
+			}
+			available = {
+				KAM = {
+					has_government = autorytaryzm
+				}
 			}
 		}
 	}
