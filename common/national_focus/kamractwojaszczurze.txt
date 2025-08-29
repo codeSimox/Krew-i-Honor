@@ -198,6 +198,23 @@ focus_tree = {
             }
         }
     }
+    focus = {
+        id = KAM_focus_reaserch1
+        icon = GFX_focus_research
+        cost = 10
+        relative_position_id = KAM_przem6
+        x = -3
+        y = 1
+
+        prerequisite = {
+            focus = KAM_przem6
+            focus = np_removing_focus_5
+        }
+
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
 
 #DRZEWKO ARMII#
 

@@ -1,5 +1,6 @@
 division_template = {
 	name = "Pieszy Oddział Kamratów"
+	division_names_group = KAM_INF_01
 	regiments = { 
 		infantry = {
 			x = 0
@@ -21,6 +22,60 @@ division_template = {
 			x = 1
 			y = 1
 		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "Kamracka Brygada Kawalerii"
+	division_names_group = KAM_CAV_01
+	regiments = { 
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 0
+			y = 2
+		}
+		cavalry = {
+			x = 0
+			y = 3
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 2
+		}
+		cavalry = {
+			x = 1
+			y = 3
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
 	}
 }
 
@@ -29,15 +84,51 @@ units = {
 		name = "1. Pieszy Oddział Kamratów"
 		location = 3503
 		division_template = "Pieszy Oddział Kamratów"
-		start_experience_factor = 1
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "2. Pieszy Oddział Kamratów"
+		location = 3304
+		division_template = "Pieszy Oddział Kamratów"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 }
 
 units = {
 	division = {
-		name = "2. Pieszy Oddział Kamratów"
-		location = 9044
-		division_template = "Pieszy Oddział Kamratów"
+		name = "1. Kamracka Brygada Kawalerii - Miecze Grunwaldu"
+		location = 520
+		division_template = "Kamracka Brygada Kawalerii"
 		start_experience_factor = 1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "2. Kłodzka Kamracka Brygada Kawalerii"
+		location = 1055
+		division_template = "Kamracka Brygada Kawalerii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "3. Krakowska Kamracka Brygada Kawalerii"
+		location = 963
+		division_template = "Kamracka Brygada Kawalerii"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "4. Otwocka Kamracka Brygada Kawalerii"
+		location = 9310
+		division_template = "Kamracka Brygada Kawalerii"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 }
