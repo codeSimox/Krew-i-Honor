@@ -2,14 +2,22 @@ state={
 	id=384
 	name="STATE_384"
 	provinces={
-		146 294 494 504 661 1185 1253 2656 2734 3736 4593 6055 6218 9529 9571 
+		146 294 494 504 661 1185 1253 2656 2734 3736 4461 4593 6055 6218 9529 9571 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=52312
+        state_category = large_town
 
 	history = {
 		owner = REZ
 		add_core_of = REZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 294 15 }
+	}
+	resources = {
+		rubber = 13
 	}
 }

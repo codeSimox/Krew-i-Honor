@@ -2,14 +2,28 @@ state={
 	id=6
 	name="STATE_6"
 	provinces={
-		252 734 1022 3587 3728 4461 5521 9512 9514 9535 9538 
+		252 734 1022 2260 2968 3587 3728 3831 5521 9512 9514 9535 9538 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=65892
+        state_category = large_town
 
 	history = {
 		owner = REZ
 		add_core_of = REZ
+		victory_points = { 252 20 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			252 = {
+				supply_node = 1
+			}
+		}
+	}
+	resources = {
+		rubber = 5
+	}
+	resources = {
+		aluminium = 4
 	}
 }

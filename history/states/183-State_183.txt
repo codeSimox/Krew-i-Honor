@@ -5,11 +5,15 @@ state={
 		483 750 1001 1094 1422 1831 2065 3148 3457 3556 3607 3935 3992 4025 4134 6630 6689 7699 7803 7840 7850 7903 7910 8055 8121 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=14723
+        state_category = rural
 
 	history = {
 		owner = KON
 		add_core_of = KON
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7910 3 }
 	}
 }

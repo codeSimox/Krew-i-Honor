@@ -1,0 +1,25 @@
+state = {
+	id = 444
+	name = "STATE_444"
+	provinces = { 120 24 386 446 1895 2087 3662 5379 5952 9554 }
+	manpower = 22457
+	state_category = town
+	history = { 
+		owner = REZ
+		add_core_of = REZ
+		buildings = {
+			3662 = {
+				naval_base = 2
+			}
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+		}
+		victory_points = { 3662 5 }
+	
+	}
+	resources = {
+		steel = 6
+		tungsten = 9
+	}
+}

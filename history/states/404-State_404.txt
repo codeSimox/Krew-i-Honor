@@ -5,11 +5,26 @@ state={
 		40 105 289 533 1256 2112 2227 2344 2480 3027 3834 4841 5053 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=24463
+        state_category = rural
 
 	history = {
 		owner = REZ
 		add_core_of = REZ
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			2480 = {
+				naval_base = 2
+			}
+			2112 = {
+				supply_node = 1
+			}
+		}
+		victory_points = { 2112 3 }
+	
+	}
+	resources = {
+		oil = 14
 	}
 }

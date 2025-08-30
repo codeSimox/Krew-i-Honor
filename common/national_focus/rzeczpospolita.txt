@@ -409,7 +409,16 @@ focus_tree = {
         y = 1
         
         completion_reward = {
-            
+            237 = {
+                create_unit = { division = "name = \"Pierwsza Brygada partzancka\" division_template = \"Oddział Partyzantów\" start_experience_factor = 1" owner = ROOT }
+                create_unit = { division = "name = \"Druga Brygada partzancka\" division_template = \"Oddział Partyzantów\" start_experience_factor = 1" owner = ROOT }
+            }
+            281 = {
+                create_unit = { division = "name = \"Trzecia Brygada partzancka\" division_template = \"Oddział Partyzantów\" start_experience_factor = 1" owner = ROOT }
+                create_unit = { division = "name = \"Czwarta Brygada partzancka\" division_template = \"Oddział Partyzantów\" start_experience_factor = 1" owner = ROOT }
+            }
+            end_puppet = RPL
+            RPL = { country_event = rpl_event.1 }
         }
     }
     #drzewko po rewolcie lewe
