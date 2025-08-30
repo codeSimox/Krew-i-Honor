@@ -160,7 +160,7 @@ focus_tree = {
             
             }
             add_to_variable = {
-                RZP_stabwe = 0.1
+                RZP_stabwe = 0.001
             }
             add_tech_bonus = {
                 bonus = 1
@@ -421,6 +421,12 @@ focus_tree = {
         prerequisite = {
             focus = RZP_powstannarodzie
         }
+        available = {
+            is_free_or_subject_of_root = yes
+        }
+        available = {
+            has_war = no
+        }
         x = -3
         y = 1
         completion_reward = { 
@@ -527,7 +533,23 @@ focus = {
         }
     }
 }
-    #podchujaszczyzm
+#drzewko po rewolcie prawe
+focus = {
+    id = RZP_wezmyconasze
+    icon = GFX_focus_LIT_claim_livonia
+    cost = 5
+    relative_position_id = RZP_powstannarodzie
+    prerequisite = {
+        focus = RZP_powstannarodzie
+    }
+    available = {
+            is_free_or_subject_of_root = yes
+        }
+    x = 1
+    y = 1
+    completion_reward = { }
+}
+#podchujaszczyzm====================================================================================================================
     focus = {
         id = RZP_wesprzyjmypis
         icon = GFX_focus_generic_welfare
